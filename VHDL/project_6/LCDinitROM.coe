@@ -1,0 +1,17 @@
+; LCD initialization and message.
+;
+; This .COE file specifies initialization values for a block 
+; memory of depth=78, and width=32. In this case, values are 
+; specified in hexadecimal format.
+memory_initialization_radix=16;
+memory_initialization_vector=
+03 03 03 02 02 00 00 08 00 01 00 06 00 0E 14 18 
+16 11 17 12 16 14 17 17 16 11 17 12 16 15 12 10 
+15 12 16 15 16 11 16 14 17 19 12 11 00 00 00 00; 
+; 00-F
+; 10-1F
+; 20-2F
+; 30-3F
+; 40-4F
+; 50-5F
+; 60-6F

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="bigCanvasMessage">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Mon Apr 20 14:45:09 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./bigCanvasMessage.mif" type="mif" timestamp="Mon Apr 20 14:43:32 GMT 2015" checksum="0xECFA3F55"></File>
+        <File name="./summary.log" type="unknown" timestamp="Mon Apr 20 14:43:32 GMT 2015" checksum="0x6ECD9B8E"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./bigCanvasMessage.xco" type="xco" timestamp="Mon Apr 20 14:43:33 GMT 2015" checksum="0xC6EF573F"></File>
+      </FileSet>
+      <FileSet generator="associated_files_generator">
+        <File name="./bigCanvasMessage/blk_mem_gen_v7_3_readme.txt" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0xF95F2A26"></File>
+        <File name="./bigCanvasMessage/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0x702C7FA8"></File>
+        <File name="./bigCanvasMessage/doc/pg058-blk-mem-gen.pdf" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0xC1E42F23"></File>
+      </FileSet>
+      <FileSet generator="ejava_generator">
+        <File name="./bigCanvasMessage/example_design/bigCanvasMessage_exdes.ucf" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xC44C6B6D"></File>
+        <File name="./bigCanvasMessage/example_design/bigCanvasMessage_exdes.vhd" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x44D5C6D5"></File>
+        <File name="./bigCanvasMessage/example_design/bigCanvasMessage_exdes.xdc" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x7684D6D4"></File>
+        <File name="./bigCanvasMessage/example_design/bigCanvasMessage_prod.vhd" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x0D599D74"></File>
+        <File name="./bigCanvasMessage/implement/implement.bat" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x94976A28"></File>
+        <File name="./bigCanvasMessage/implement/implement.sh" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x9BC19A26"></File>
+        <File name="./bigCanvasMessage/implement/planAhead_ise.bat" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xC7600986"></File>
+        <File name="./bigCanvasMessage/implement/planAhead_ise.sh" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xC2F0C89A"></File>
+        <File name="./bigCanvasMessage/implement/planAhead_ise.tcl" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x663A6E31"></File>
+        <File name="./bigCanvasMessage/implement/xst.prj" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xC8A449AB"></File>
+        <File name="./bigCanvasMessage/implement/xst.scr" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xB7F84A90"></File>
+        <File name="./bigCanvasMessage/simulation/addr_gen.vhd" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x0500E48D"></File>
+        <File name="./bigCanvasMessage/simulation/bigCanvasMessage_synth.vhd" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x657650DE"></File>
+        <File name="./bigCanvasMessage/simulation/bigCanvasMessage_tb.vhd" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xA12316E9"></File>
+        <File name="./bigCanvasMessage/simulation/bmg_stim_gen.vhd" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x7DB70D11"></File>
+        <File name="./bigCanvasMessage/simulation/bmg_tb_pkg.vhd" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xE0D93E5B"></File>
+        <File name="./bigCanvasMessage/simulation/functional/simcmds.tcl" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xF272A070"></File>
+        <File name="./bigCanvasMessage/simulation/functional/simulate_isim.bat" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x06D3512A"></File>
+        <File name="./bigCanvasMessage/simulation/functional/simulate_mti.bat" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./bigCanvasMessage/simulation/functional/simulate_mti.do" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x0973897A"></File>
+        <File name="./bigCanvasMessage/simulation/functional/simulate_mti.sh" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./bigCanvasMessage/simulation/functional/simulate_ncsim.sh" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x56136978"></File>
+        <File name="./bigCanvasMessage/simulation/functional/simulate_vcs.sh" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xC372D5DE"></File>
+        <File name="./bigCanvasMessage/simulation/functional/ucli_commands.key" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x12B1E00D"></File>
+        <File name="./bigCanvasMessage/simulation/functional/vcs_session.tcl" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xF7F70207"></File>
+        <File name="./bigCanvasMessage/simulation/functional/wave_mti.do" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x0C03941B"></File>
+        <File name="./bigCanvasMessage/simulation/functional/wave_ncsim.sv" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x4D0BCA9F"></File>
+        <File name="./bigCanvasMessage/simulation/random.vhd" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x2939160A"></File>
+        <File name="./bigCanvasMessage/simulation/timing/simcmds.tcl" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xF272A070"></File>
+        <File name="./bigCanvasMessage/simulation/timing/simulate_isim.bat" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x36437DFC"></File>
+        <File name="./bigCanvasMessage/simulation/timing/simulate_mti.bat" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./bigCanvasMessage/simulation/timing/simulate_mti.do" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xEA75F4E0"></File>
+        <File name="./bigCanvasMessage/simulation/timing/simulate_mti.sh" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./bigCanvasMessage/simulation/timing/simulate_ncsim.sh" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xD1EAEE08"></File>
+        <File name="./bigCanvasMessage/simulation/timing/simulate_vcs.sh" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x3D206677"></File>
+        <File name="./bigCanvasMessage/simulation/timing/ucli_commands.key" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x12B1E00D"></File>
+        <File name="./bigCanvasMessage/simulation/timing/vcs_session.tcl" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x839075A8"></File>
+        <File name="./bigCanvasMessage/simulation/timing/wave_mti.do" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0x2E839D8B"></File>
+        <File name="./bigCanvasMessage/simulation/timing/wave_ncsim.sv" type="ignore" timestamp="Mon Apr 20 14:43:34 GMT 2015" checksum="0xFB26B597"></File>
+      </FileSet>
+      <FileSet generator="ngc_netlist_generator">
+        <File name="./bigCanvasMessage.ngc" type="ngc" timestamp="Mon Apr 20 14:44:47 GMT 2015" checksum="0xEDBF1B1F"></File>
+      </FileSet>
+      <FileSet generator="obfuscate_netlist_generator">
+        <File name="./obfuscate_netlist_generator.xlog" type="ignore" timestamp="Mon Apr 20 14:45:09 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="padded_implementation_netlist_generator">
+        <File name="./padded_implementation_netlist_generator.xlog" type="ignore" timestamp="Mon Apr 20 14:45:09 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="instantiation_template_generator">
+        <File name="./bigCanvasMessage.vho" type="vho" timestamp="Mon Apr 20 14:44:48 GMT 2015" checksum="0xC7061F72"></File>
+      </FileSet>
+      <FileSet generator="structural_simulation_model_generator">
+        <File name="./bigCanvasMessage.vhd" type="vhdl" timestamp="Mon Apr 20 14:44:49 GMT 2015" checksum="0xAADAD8F3"></File>
+      </FileSet>
+      <FileSet generator="all_documents_generator">
+        <File name="./bigCanvasMessage/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Mon Apr 20 14:44:49 GMT 2015" checksum="0x702C7FA8"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./bigCanvasMessage.asy" type="asy" timestamp="Mon Apr 20 14:44:58 GMT 2015" checksum="0xF00A2A65"></File>
+        <File name="./bigCanvasMessage.mif" type="mif" timestamp="Mon Apr 20 14:44:58 GMT 2015" checksum="0xECFA3F55"></File>
+        <File name="./summary.log" type="unknown" timestamp="Mon Apr 20 14:44:58 GMT 2015" checksum="0x6ECD9B8E"></File>
+      </FileSet>
+      <FileSet generator="xmdf_generator">
+        <File name="./bigCanvasMessage_xmdf.tcl" type="tclXmdf" timestamp="Mon Apr 20 14:44:58 GMT 2015" checksum="0x2F573233"></File>
+      </FileSet>
+      <FileSet generator="synthesis_ise_generator">
+        <File name="./bigCanvasMessage.gise" type="ignore" timestamp="Mon Apr 20 14:45:03 GMT 2015" checksum="0x8B70BBA4"></File>
+        <File name="./bigCanvasMessage.xise" type="ignore" timestamp="Mon Apr 20 14:45:03 GMT 2015" checksum="0x02A6C3B9"></File>
+      </FileSet>
+      <FileSet generator="ise_generator">
+        <File name="./bigCanvasMessage.gise" type="ignore" timestamp="Mon Apr 20 14:45:08 GMT 2015" checksum="0x124D3DC2"></File>
+        <File name="./bigCanvasMessage.xise" type="ignore" timestamp="Mon Apr 20 14:45:08 GMT 2015" checksum="0x56DB1A28"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./deliver_readme_generator.xlog" type="ignore" timestamp="Mon Apr 20 14:45:09 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./bigCanvasMessage_flist.txt" type="ignore" timestamp="Mon Apr 20 14:45:08 GMT 2015" checksum="0x0914AEBC"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="CGROM">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Wed Apr 15 20:22:43 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./CGROM.mif" type="mif" timestamp="Wed Apr 15 20:21:06 GMT 2015" checksum="0x9B993728"></File>
+        <File name="./summary.log" type="unknown" timestamp="Wed Apr 15 20:21:06 GMT 2015" checksum="0x9FCCF0AE"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./CGROM.xco" type="xco" timestamp="Wed Apr 15 20:21:07 GMT 2015" checksum="0xC6A9D537"></File>
+      </FileSet>
+      <FileSet generator="associated_files_generator">
+        <File name="./CGROM/blk_mem_gen_v7_3_readme.txt" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0xF95F2A26"></File>
+        <File name="./CGROM/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0x702C7FA8"></File>
+        <File name="./CGROM/doc/pg058-blk-mem-gen.pdf" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0xC1E42F23"></File>
+      </FileSet>
+      <FileSet generator="ejava_generator">
+        <File name="./CGROM/example_design/CGROM_exdes.ucf" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xC44C6B6D"></File>
+        <File name="./CGROM/example_design/CGROM_exdes.vhd" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x9971824E"></File>
+        <File name="./CGROM/example_design/CGROM_exdes.xdc" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x7684D6D4"></File>
+        <File name="./CGROM/example_design/CGROM_prod.vhd" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x28F5482E"></File>
+        <File name="./CGROM/implement/implement.bat" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xD1BD3528"></File>
+        <File name="./CGROM/implement/implement.sh" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xEBAD19BA"></File>
+        <File name="./CGROM/implement/planAhead_ise.bat" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x166F8C96"></File>
+        <File name="./CGROM/implement/planAhead_ise.sh" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x84E340B5"></File>
+        <File name="./CGROM/implement/planAhead_ise.tcl" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x7E97D75F"></File>
+        <File name="./CGROM/implement/xst.prj" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xA4F24259"></File>
+        <File name="./CGROM/implement/xst.scr" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xE156DC44"></File>
+        <File name="./CGROM/simulation/CGROM_synth.vhd" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x5C9A96DC"></File>
+        <File name="./CGROM/simulation/CGROM_tb.vhd" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xA1C7124F"></File>
+        <File name="./CGROM/simulation/addr_gen.vhd" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x0500E48D"></File>
+        <File name="./CGROM/simulation/bmg_stim_gen.vhd" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xEB72B149"></File>
+        <File name="./CGROM/simulation/bmg_tb_pkg.vhd" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xE0D93E5B"></File>
+        <File name="./CGROM/simulation/functional/simcmds.tcl" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x01742325"></File>
+        <File name="./CGROM/simulation/functional/simulate_isim.bat" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x2863CBC1"></File>
+        <File name="./CGROM/simulation/functional/simulate_mti.bat" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./CGROM/simulation/functional/simulate_mti.do" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xCA3CDBC2"></File>
+        <File name="./CGROM/simulation/functional/simulate_mti.sh" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./CGROM/simulation/functional/simulate_ncsim.sh" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xC39840C2"></File>
+        <File name="./CGROM/simulation/functional/simulate_vcs.sh" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x544624D9"></File>
+        <File name="./CGROM/simulation/functional/ucli_commands.key" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xB6A2B2ED"></File>
+        <File name="./CGROM/simulation/functional/vcs_session.tcl" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x53756226"></File>
+        <File name="./CGROM/simulation/functional/wave_mti.do" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x1B141CB1"></File>
+        <File name="./CGROM/simulation/functional/wave_ncsim.sv" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x6FAB72F8"></File>
+        <File name="./CGROM/simulation/random.vhd" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x2939160A"></File>
+        <File name="./CGROM/simulation/timing/simcmds.tcl" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x01742325"></File>
+        <File name="./CGROM/simulation/timing/simulate_isim.bat" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xD17D9253"></File>
+        <File name="./CGROM/simulation/timing/simulate_mti.bat" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./CGROM/simulation/timing/simulate_mti.do" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x9BAACE1E"></File>
+        <File name="./CGROM/simulation/timing/simulate_mti.sh" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./CGROM/simulation/timing/simulate_ncsim.sh" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x772ECF84"></File>
+        <File name="./CGROM/simulation/timing/simulate_vcs.sh" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x4F3F18A3"></File>
+        <File name="./CGROM/simulation/timing/ucli_commands.key" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xB6A2B2ED"></File>
+        <File name="./CGROM/simulation/timing/vcs_session.tcl" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xE7FFFDBC"></File>
+        <File name="./CGROM/simulation/timing/wave_mti.do" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0xC213B4FF"></File>
+        <File name="./CGROM/simulation/timing/wave_ncsim.sv" type="ignore" timestamp="Wed Apr 15 20:21:08 GMT 2015" checksum="0x30B31C27"></File>
+      </FileSet>
+      <FileSet generator="ngc_netlist_generator">
+        <File name="./CGROM.ngc" type="ngc" timestamp="Wed Apr 15 20:22:20 GMT 2015" checksum="0xADC17648"></File>
+      </FileSet>
+      <FileSet generator="obfuscate_netlist_generator">
+        <File name="./obfuscate_netlist_generator.xlog" type="ignore" timestamp="Wed Apr 15 20:22:43 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="padded_implementation_netlist_generator">
+        <File name="./padded_implementation_netlist_generator.xlog" type="ignore" timestamp="Wed Apr 15 20:22:43 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="instantiation_template_generator">
+        <File name="./CGROM.vho" type="vho" timestamp="Wed Apr 15 20:22:21 GMT 2015" checksum="0xDF6BE032"></File>
+      </FileSet>
+      <FileSet generator="structural_simulation_model_generator">
+        <File name="./CGROM.vhd" type="vhdl" timestamp="Wed Apr 15 20:22:22 GMT 2015" checksum="0x74287288"></File>
+      </FileSet>
+      <FileSet generator="all_documents_generator">
+        <File name="./CGROM/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Wed Apr 15 20:22:22 GMT 2015" checksum="0x702C7FA8"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./CGROM.asy" type="asy" timestamp="Wed Apr 15 20:22:32 GMT 2015" checksum="0x66298ADE"></File>
+        <File name="./CGROM.mif" type="mif" timestamp="Wed Apr 15 20:22:32 GMT 2015" checksum="0x9B993728"></File>
+        <File name="./summary.log" type="unknown" timestamp="Wed Apr 15 20:22:32 GMT 2015" checksum="0x9FCCF0AE"></File>
+      </FileSet>
+      <FileSet generator="xmdf_generator">
+        <File name="./CGROM_xmdf.tcl" type="tclXmdf" timestamp="Wed Apr 15 20:22:32 GMT 2015" checksum="0x08F5DA99"></File>
+      </FileSet>
+      <FileSet generator="synthesis_ise_generator">
+        <File name="./CGROM.gise" type="ignore" timestamp="Wed Apr 15 20:22:38 GMT 2015" checksum="0x2D183886"></File>
+        <File name="./CGROM.xise" type="ignore" timestamp="Wed Apr 15 20:22:37 GMT 2015" checksum="0x2848BEFE"></File>
+      </FileSet>
+      <FileSet generator="ise_generator">
+        <File name="./CGROM.gise" type="ignore" timestamp="Wed Apr 15 20:22:42 GMT 2015" checksum="0x392EE835"></File>
+        <File name="./CGROM.xise" type="ignore" timestamp="Wed Apr 15 20:22:42 GMT 2015" checksum="0x43F2B130"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./deliver_readme_generator.xlog" type="ignore" timestamp="Wed Apr 15 20:22:43 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./CGROM_flist.txt" type="ignore" timestamp="Wed Apr 15 20:22:43 GMT 2015" checksum="0x2498EDB8"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>

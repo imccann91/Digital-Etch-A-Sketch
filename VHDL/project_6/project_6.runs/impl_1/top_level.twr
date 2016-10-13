@@ -1,0 +1,1471 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -o
+top_level.twr -v 30 -l 30 top_level_routed.ncd top_level.pcf
+
+Design file:              top_level_routed.ncd
+Physical constraint file: top_level.pcf
+Device,package,speed:     xc7a100t,csg324,C,-1 (PRODUCTION 1.09 2013-06-08)
+Report level:             verbose report, limited to 30 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 13679 paths analyzed, 2184 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   8.356ns.
+--------------------------------------------------------------------------------
+Slack:                  1.644ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_0_1 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      8.159ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.162ns (1.360 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_0_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.B4      net (fanout=5)        0.604   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.B       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>2
+    SLICE_X43Y73.B5      net (fanout=16)       0.906   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+    SLICE_X43Y73.B       Tilo                  0.124   Inst_color_change/keyboardArray_0[3]
+                                                       Inst_color_change/_n03171
+    SLICE_X40Y74.B2      net (fanout=4)        0.855   Inst_color_change/_n0317
+    SLICE_X40Y74.CLK     Tas                   0.093   Inst_color_change/keyboardArray_0[2]
+                                                       Inst_color_change/keyboardArray_0_1_rstpot
+                                                       Inst_color_change/keyboardArray_0_1
+    -------------------------------------------------  ---------------------------
+    Total                                      8.159ns (2.919ns logic, 5.240ns route)
+                                                       (35.8% logic, 64.2% route)
+
+--------------------------------------------------------------------------------
+Slack:                  1.645ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_0_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      8.158ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.162ns (1.360 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_0_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.B4      net (fanout=5)        0.604   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.B       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>2
+    SLICE_X43Y73.B5      net (fanout=16)       0.906   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+    SLICE_X43Y73.B       Tilo                  0.124   Inst_color_change/keyboardArray_0[3]
+                                                       Inst_color_change/_n03171
+    SLICE_X40Y74.A2      net (fanout=4)        0.852   Inst_color_change/_n0317
+    SLICE_X40Y74.CLK     Tas                   0.095   Inst_color_change/keyboardArray_0[2]
+                                                       Inst_color_change/keyboardArray_0_0_rstpot
+                                                       Inst_color_change/keyboardArray_0_0
+    -------------------------------------------------  ---------------------------
+    Total                                      8.158ns (2.921ns logic, 5.237ns route)
+                                                       (35.8% logic, 64.2% route)
+
+--------------------------------------------------------------------------------
+Slack:                  1.893ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_5_1 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.912ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.160ns (1.362 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_5_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X44Y68.B5      net (fanout=5)        0.311   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X44Y68.B       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/_n0431_inv21
+    SLICE_X42Y71.D1      net (fanout=18)       1.151   Inst_color_change/_n0431_inv2
+    SLICE_X42Y71.D       Tilo                  0.124   Inst_color_change/keyboardArray_5[3]
+                                                       Inst_color_change/_n02671
+    SLICE_X42Y71.A1      net (fanout=3)        0.702   Inst_color_change/_n0267
+    SLICE_X42Y71.CLK     Tas                   0.047   Inst_color_change/keyboardArray_5[3]
+                                                       Inst_color_change/keyboardArray_5_1_rstpot
+                                                       Inst_color_change/keyboardArray_5_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.912ns (2.873ns logic, 5.039ns route)
+                                                       (36.3% logic, 63.7% route)
+
+--------------------------------------------------------------------------------
+Slack:                  1.907ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_5_2 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.898ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.160ns (1.362 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_5_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X44Y68.B5      net (fanout=5)        0.311   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X44Y68.B       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/_n0431_inv21
+    SLICE_X42Y71.D1      net (fanout=18)       1.151   Inst_color_change/_n0431_inv2
+    SLICE_X42Y71.D       Tilo                  0.124   Inst_color_change/keyboardArray_5[3]
+                                                       Inst_color_change/_n02671
+    SLICE_X42Y71.B1      net (fanout=3)        0.692   Inst_color_change/_n0267
+    SLICE_X42Y71.CLK     Tas                   0.043   Inst_color_change/keyboardArray_5[3]
+                                                       Inst_color_change/keyboardArray_5_2_rstpot
+                                                       Inst_color_change/keyboardArray_5_2
+    -------------------------------------------------  ---------------------------
+    Total                                      7.898ns (2.869ns logic, 5.029ns route)
+                                                       (36.3% logic, 63.7% route)
+
+--------------------------------------------------------------------------------
+Slack:                  1.957ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_0_2 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.846ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.162ns (1.360 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_0_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X44Y68.B5      net (fanout=5)        0.311   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X44Y68.B       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/_n0431_inv21
+    SLICE_X43Y69.C3      net (fanout=18)       0.821   Inst_color_change/_n0431_inv2
+    SLICE_X43Y69.C       Tilo                  0.124   Inst_color_change/registerPointer[2]_Decoder_17_OUT[5]
+                                                       Inst_color_change/_n0486_inv1
+    SLICE_X40Y74.C4      net (fanout=4)        0.920   Inst_color_change/_n0486_inv
+    SLICE_X40Y74.CLK     Tas                   0.093   Inst_color_change/keyboardArray_0[2]
+                                                       Inst_color_change/keyboardArray_0_2_rstpot
+                                                       Inst_color_change/keyboardArray_0_2
+    -------------------------------------------------  ---------------------------
+    Total                                      7.846ns (2.919ns logic, 4.927ns route)
+                                                       (37.2% logic, 62.8% route)
+
+--------------------------------------------------------------------------------
+Slack:                  1.962ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_0_1 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.841ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.162ns (1.360 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_0_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X44Y68.B5      net (fanout=5)        0.311   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X44Y68.B       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/_n0431_inv21
+    SLICE_X43Y69.C3      net (fanout=18)       0.821   Inst_color_change/_n0431_inv2
+    SLICE_X43Y69.C       Tilo                  0.124   Inst_color_change/registerPointer[2]_Decoder_17_OUT[5]
+                                                       Inst_color_change/_n0486_inv1
+    SLICE_X40Y74.B4      net (fanout=4)        0.915   Inst_color_change/_n0486_inv
+    SLICE_X40Y74.CLK     Tas                   0.093   Inst_color_change/keyboardArray_0[2]
+                                                       Inst_color_change/keyboardArray_0_1_rstpot
+                                                       Inst_color_change/keyboardArray_0_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.841ns (2.919ns logic, 4.922ns route)
+                                                       (37.2% logic, 62.8% route)
+
+--------------------------------------------------------------------------------
+Slack:                  1.970ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_0_1 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.833ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.162ns (1.360 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_0_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X44Y68.B5      net (fanout=5)        0.311   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X44Y68.B       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/_n0431_inv21
+    SLICE_X43Y73.B4      net (fanout=18)       0.873   Inst_color_change/_n0431_inv2
+    SLICE_X43Y73.B       Tilo                  0.124   Inst_color_change/keyboardArray_0[3]
+                                                       Inst_color_change/_n03171
+    SLICE_X40Y74.B2      net (fanout=4)        0.855   Inst_color_change/_n0317
+    SLICE_X40Y74.CLK     Tas                   0.093   Inst_color_change/keyboardArray_0[2]
+                                                       Inst_color_change/keyboardArray_0_1_rstpot
+                                                       Inst_color_change/keyboardArray_0_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.833ns (2.919ns logic, 4.914ns route)
+                                                       (37.3% logic, 62.7% route)
+
+--------------------------------------------------------------------------------
+Slack:                  1.971ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_0_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.832ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.162ns (1.360 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_0_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X44Y68.B5      net (fanout=5)        0.311   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X44Y68.B       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/_n0431_inv21
+    SLICE_X43Y73.B4      net (fanout=18)       0.873   Inst_color_change/_n0431_inv2
+    SLICE_X43Y73.B       Tilo                  0.124   Inst_color_change/keyboardArray_0[3]
+                                                       Inst_color_change/_n03171
+    SLICE_X40Y74.A2      net (fanout=4)        0.852   Inst_color_change/_n0317
+    SLICE_X40Y74.CLK     Tas                   0.095   Inst_color_change/keyboardArray_0[2]
+                                                       Inst_color_change/keyboardArray_0_0_rstpot
+                                                       Inst_color_change/keyboardArray_0_0
+    -------------------------------------------------  ---------------------------
+    Total                                      7.832ns (2.921ns logic, 4.911ns route)
+                                                       (37.3% logic, 62.7% route)
+
+--------------------------------------------------------------------------------
+Slack:                  1.972ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_5_3 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.833ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.160ns (1.362 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_5_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X44Y68.B5      net (fanout=5)        0.311   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X44Y68.B       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/_n0431_inv21
+    SLICE_X43Y70.D4      net (fanout=18)       0.894   Inst_color_change/_n0431_inv2
+    SLICE_X43Y70.D       Tilo                  0.124   Inst_color_change/_n0431_inv
+                                                       Inst_color_change/_n0431_inv1
+    SLICE_X42Y71.C1      net (fanout=3)        0.882   Inst_color_change/_n0431_inv
+    SLICE_X42Y71.CLK     Tas                   0.045   Inst_color_change/keyboardArray_5[3]
+                                                       Inst_color_change/keyboardArray_5_3_rstpot
+                                                       Inst_color_change/keyboardArray_5_3
+    -------------------------------------------------  ---------------------------
+    Total                                      7.833ns (2.871ns logic, 4.962ns route)
+                                                       (36.7% logic, 63.3% route)
+
+--------------------------------------------------------------------------------
+Slack:                  1.979ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_5_1 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.826ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.160ns (1.362 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_5_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X44Y68.B5      net (fanout=5)        0.311   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X44Y68.B       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/_n0431_inv21
+    SLICE_X43Y70.D4      net (fanout=18)       0.894   Inst_color_change/_n0431_inv2
+    SLICE_X43Y70.D       Tilo                  0.124   Inst_color_change/_n0431_inv
+                                                       Inst_color_change/_n0431_inv1
+    SLICE_X42Y71.A2      net (fanout=3)        0.873   Inst_color_change/_n0431_inv
+    SLICE_X42Y71.CLK     Tas                   0.047   Inst_color_change/keyboardArray_5[3]
+                                                       Inst_color_change/keyboardArray_5_1_rstpot
+                                                       Inst_color_change/keyboardArray_5_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.826ns (2.873ns logic, 4.953ns route)
+                                                       (36.7% logic, 63.3% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.028ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_0_2 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.775ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.162ns (1.360 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_0_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.B4      net (fanout=5)        0.604   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.B       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>2
+    SLICE_X43Y73.B5      net (fanout=16)       0.906   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+    SLICE_X43Y73.B       Tilo                  0.124   Inst_color_change/keyboardArray_0[3]
+                                                       Inst_color_change/_n03171
+    SLICE_X40Y74.C6      net (fanout=4)        0.471   Inst_color_change/_n0317
+    SLICE_X40Y74.CLK     Tas                   0.093   Inst_color_change/keyboardArray_0[2]
+                                                       Inst_color_change/keyboardArray_0_2_rstpot
+                                                       Inst_color_change/keyboardArray_0_2
+    -------------------------------------------------  ---------------------------
+    Total                                      7.775ns (2.919ns logic, 4.856ns route)
+                                                       (37.5% logic, 62.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.039ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_0_3 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.763ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.163ns (1.359 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_0_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.B4      net (fanout=5)        0.604   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.B       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>2
+    SLICE_X43Y73.B5      net (fanout=16)       0.906   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+    SLICE_X43Y73.B       Tilo                  0.124   Inst_color_change/keyboardArray_0[3]
+                                                       Inst_color_change/_n03171
+    SLICE_X43Y73.A4      net (fanout=4)        0.457   Inst_color_change/_n0317
+    SLICE_X43Y73.CLK     Tas                   0.095   Inst_color_change/keyboardArray_0[3]
+                                                       Inst_color_change/keyboardArray_0_3_rstpot
+                                                       Inst_color_change/keyboardArray_0_3
+    -------------------------------------------------  ---------------------------
+    Total                                      7.763ns (2.921ns logic, 4.842ns route)
+                                                       (37.6% logic, 62.4% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.054ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_4_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.751ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.160ns (1.362 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_4_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.B4      net (fanout=5)        0.604   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.B       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>2
+    SLICE_X41Y73.A2      net (fanout=16)       1.475   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+    SLICE_X41Y73.CLK     Tas                   0.095   Inst_color_change/keyboardArray_4[3]
+                                                       Inst_color_change/keyboardArray_4_0_rstpot
+                                                       Inst_color_change/keyboardArray_4_0
+    -------------------------------------------------  ---------------------------
+    Total                                      7.751ns (2.797ns logic, 4.954ns route)
+                                                       (36.1% logic, 63.9% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.104ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_1_3 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.696ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.165ns (1.357 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_1_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.B4      net (fanout=5)        0.604   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.B       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>2
+    SLICE_X42Y74.C1      net (fanout=16)       1.470   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+    SLICE_X42Y74.CLK     Tas                   0.045   Inst_color_change/keyboardArray_1[3]
+                                                       Inst_color_change/keyboardArray_1_3_rstpot
+                                                       Inst_color_change/keyboardArray_1_3
+    -------------------------------------------------  ---------------------------
+    Total                                      7.696ns (2.747ns logic, 4.949ns route)
+                                                       (35.7% logic, 64.3% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.132ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_2_2 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.671ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.162ns (1.360 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_2_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.B4      net (fanout=5)        0.604   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.B       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>2
+    SLICE_X41Y74.C4      net (fanout=16)       1.397   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+    SLICE_X41Y74.CLK     Tas                   0.093   Inst_color_change/keyboardArray_2[2]
+                                                       Inst_color_change/keyboardArray_2_2_rstpot
+                                                       Inst_color_change/keyboardArray_2_2
+    -------------------------------------------------  ---------------------------
+    Total                                      7.671ns (2.795ns logic, 4.876ns route)
+                                                       (36.4% logic, 63.6% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.231ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_0_0 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.572ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.162ns (1.360 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_0_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X44Y68.B5      net (fanout=5)        0.311   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X44Y68.B       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/_n0431_inv21
+    SLICE_X43Y69.C3      net (fanout=18)       0.821   Inst_color_change/_n0431_inv2
+    SLICE_X43Y69.C       Tilo                  0.124   Inst_color_change/registerPointer[2]_Decoder_17_OUT[5]
+                                                       Inst_color_change/_n0486_inv1
+    SLICE_X40Y74.A6      net (fanout=4)        0.644   Inst_color_change/_n0486_inv
+    SLICE_X40Y74.CLK     Tas                   0.095   Inst_color_change/keyboardArray_0[2]
+                                                       Inst_color_change/keyboardArray_0_0_rstpot
+                                                       Inst_color_change/keyboardArray_0_0
+    -------------------------------------------------  ---------------------------
+    Total                                      7.572ns (2.921ns logic, 4.651ns route)
+                                                       (38.6% logic, 61.4% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.251ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/redPWMData_7 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.556ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.158ns (1.364 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/redPWMData_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X36Y77.CE      net (fanout=6)        0.945   Inst_color_change/_n0257
+    SLICE_X36Y77.CLK     Tceck                 0.205   PWMRed[7]
+                                                       Inst_color_change/redPWMData_7
+    -------------------------------------------------  ---------------------------
+    Total                                      7.556ns (2.907ns logic, 4.649ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.251ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/redPWMData_5 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.556ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.158ns (1.364 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/redPWMData_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X36Y77.CE      net (fanout=6)        0.945   Inst_color_change/_n0257
+    SLICE_X36Y77.CLK     Tceck                 0.205   PWMRed[7]
+                                                       Inst_color_change/redPWMData_5
+    -------------------------------------------------  ---------------------------
+    Total                                      7.556ns (2.907ns logic, 4.649ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.251ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/greenPWMData_7 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.556ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.158ns (1.364 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/greenPWMData_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X37Y77.CE      net (fanout=6)        0.945   Inst_color_change/_n0257
+    SLICE_X37Y77.CLK     Tceck                 0.205   PWMGreen[7]
+                                                       Inst_color_change/greenPWMData_7
+    -------------------------------------------------  ---------------------------
+    Total                                      7.556ns (2.907ns logic, 4.649ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.251ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/bluePWMData_6 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.556ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.158ns (1.364 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/bluePWMData_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X36Y77.CE      net (fanout=6)        0.945   Inst_color_change/_n0257
+    SLICE_X36Y77.CLK     Tceck                 0.205   PWMRed[7]
+                                                       Inst_color_change/bluePWMData_6
+    -------------------------------------------------  ---------------------------
+    Total                                      7.556ns (2.907ns logic, 4.649ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.251ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/greenPWMData_6 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.556ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.158ns (1.364 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/greenPWMData_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X37Y77.CE      net (fanout=6)        0.945   Inst_color_change/_n0257
+    SLICE_X37Y77.CLK     Tceck                 0.205   PWMGreen[7]
+                                                       Inst_color_change/greenPWMData_6
+    -------------------------------------------------  ---------------------------
+    Total                                      7.556ns (2.907ns logic, 4.649ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.251ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/bluePWMData_5 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.556ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.158ns (1.364 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/bluePWMData_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X36Y77.CE      net (fanout=6)        0.945   Inst_color_change/_n0257
+    SLICE_X36Y77.CLK     Tceck                 0.205   PWMRed[7]
+                                                       Inst_color_change/bluePWMData_5
+    -------------------------------------------------  ---------------------------
+    Total                                      7.556ns (2.907ns logic, 4.649ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.251ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/greenPWMData_5 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.556ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.158ns (1.364 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/greenPWMData_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X37Y77.CE      net (fanout=6)        0.945   Inst_color_change/_n0257
+    SLICE_X37Y77.CLK     Tceck                 0.205   PWMGreen[7]
+                                                       Inst_color_change/greenPWMData_5
+    -------------------------------------------------  ---------------------------
+    Total                                      7.556ns (2.907ns logic, 4.649ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.251ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/bluePWMData_7 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.556ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.158ns (1.364 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/bluePWMData_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X36Y77.CE      net (fanout=6)        0.945   Inst_color_change/_n0257
+    SLICE_X36Y77.CLK     Tceck                 0.205   PWMRed[7]
+                                                       Inst_color_change/bluePWMData_7
+    -------------------------------------------------  ---------------------------
+    Total                                      7.556ns (2.907ns logic, 4.649ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.251ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/redPWMData_6 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.556ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.158ns (1.364 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/redPWMData_6
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X36Y77.CE      net (fanout=6)        0.945   Inst_color_change/_n0257
+    SLICE_X36Y77.CLK     Tceck                 0.205   PWMRed[7]
+                                                       Inst_color_change/redPWMData_6
+    -------------------------------------------------  ---------------------------
+    Total                                      7.556ns (2.907ns logic, 4.649ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.260ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/greenPWMData_1 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.545ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.160ns (1.362 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/greenPWMData_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X40Y76.CE      net (fanout=6)        0.934   Inst_color_change/_n0257
+    SLICE_X40Y76.CLK     Tceck                 0.205   PWMGreen[4]
+                                                       Inst_color_change/greenPWMData_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.545ns (2.907ns logic, 4.638ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.260ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/greenPWMData_3 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.545ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.160ns (1.362 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/greenPWMData_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X40Y76.CE      net (fanout=6)        0.934   Inst_color_change/_n0257
+    SLICE_X40Y76.CLK     Tceck                 0.205   PWMGreen[4]
+                                                       Inst_color_change/greenPWMData_3
+    -------------------------------------------------  ---------------------------
+    Total                                      7.545ns (2.907ns logic, 4.638ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.260ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/greenPWMData_4 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.545ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.160ns (1.362 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/greenPWMData_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X40Y76.CE      net (fanout=6)        0.934   Inst_color_change/_n0257
+    SLICE_X40Y76.CLK     Tceck                 0.205   PWMGreen[4]
+                                                       Inst_color_change/greenPWMData_4
+    -------------------------------------------------  ---------------------------
+    Total                                      7.545ns (2.907ns logic, 4.638ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.260ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/greenPWMData_2 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.545ns (Levels of Logic = 2)
+  Clock Path Skew:      -0.160ns (1.362 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/greenPWMData_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.A2      net (fanout=5)        0.829   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.A       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/_n02571
+    SLICE_X40Y76.CE      net (fanout=6)        0.934   Inst_color_change/_n0257
+    SLICE_X40Y76.CLK     Tceck                 0.205   PWMGreen[4]
+                                                       Inst_color_change/greenPWMData_2
+    -------------------------------------------------  ---------------------------
+    Total                                      7.545ns (2.907ns logic, 4.638ns route)
+                                                       (38.5% logic, 61.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  2.265ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
+  Destination:          Inst_color_change/keyboardArray_3_3 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      7.537ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.163ns (1.359 - 1.522)
+  Source Clock:         Clock_BUFGP rising at 0.000ns
+  Destination Clock:    Clock_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram to Inst_color_change/keyboardArray_3_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB18_X1Y25.DOADO1  Trcko_DOA             2.454   Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+                                                       Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
+    SLICE_X44Y68.A3      net (fanout=9)        2.875   keyboardDataFromROM[1]
+    SLICE_X44Y68.A       Tilo                  0.124   Inst_color_change/state
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>11
+    SLICE_X43Y68.B4      net (fanout=5)        0.604   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>1
+    SLICE_X43Y68.B       Tilo                  0.124   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+                                                       Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o<7>2
+    SLICE_X42Y73.C1      net (fanout=16)       1.311   Inst_color_change/GND_173_o_ASCIIData[7]_equal_17_o
+    SLICE_X42Y73.CLK     Tas                   0.045   Inst_color_change/keyboardArray_3[3]
+                                                       Inst_color_change/keyboardArray_3_3_rstpot
+                                                       Inst_color_change/keyboardArray_3_3
+    -------------------------------------------------  ---------------------------
+    Total                                      7.537ns (2.747ns logic, 4.790ns route)
+                                                       (36.4% logic, 63.6% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 7.424ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 2.576ns (388.199MHz) (Trper_CLKA)
+  Physical resource: Inst_connection_watchdog/Inst_reconnROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKARDCLK
+  Logical resource: Inst_connection_watchdog/Inst_reconnROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKARDCLK
+  Location pin: RAMB18_X2Y45.CLKARDCLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 7.424ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 2.576ns (388.199MHz) (Trper_CLKA)
+  Physical resource: Inst_connection_watchdog/Inst_reconnROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKBWRCLK
+  Logical resource: Inst_connection_watchdog/Inst_reconnROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKBWRCLK
+  Location pin: RAMB18_X2Y45.CLKBWRCLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 7.424ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 2.576ns (388.199MHz) (Trper_CLKA)
+  Physical resource: Inst_connection_watchdog/Inst_connLostROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKARDCLK
+  Logical resource: Inst_connection_watchdog/Inst_connLostROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKARDCLK
+  Location pin: RAMB18_X2Y44.RDCLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 7.424ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 2.576ns (388.199MHz) (Trper_CLKA)
+  Physical resource: Inst_connection_watchdog/Inst_connLostROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKBWRCLK
+  Logical resource: Inst_connection_watchdog/Inst_connLostROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKBWRCLK
+  Location pin: RAMB18_X2Y44.WRCLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 7.424ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 2.576ns (388.199MHz) (Trper_CLKA)
+  Physical resource: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKARDCLK
+  Logical resource: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKARDCLK
+  Location pin: RAMB18_X1Y25.CLKARDCLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 7.424ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 2.576ns (388.199MHz) (Trper_CLKA)
+  Physical resource: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKBWRCLK
+  Logical resource: Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKBWRCLK
+  Location pin: RAMB18_X1Y25.CLKBWRCLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 7.424ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 2.576ns (388.199MHz) (Trper_CLKA)
+  Physical resource: Inst_LCDinitROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKARDCLK
+  Logical resource: Inst_LCDinitROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKARDCLK
+  Location pin: RAMB18_X3Y44.RDCLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 7.424ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 2.576ns (388.199MHz) (Trper_CLKA)
+  Physical resource: Inst_LCDinitROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKBWRCLK
+  Logical resource: Inst_LCDinitROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram/CLKBWRCLK
+  Location pin: RAMB18_X3Y44.WRCLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 7.845ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 2.155ns (464.037MHz) (Tbcper_I(Fmax))
+  Physical resource: Clock_BUFGP/BUFG/I0
+  Logical resource: Clock_BUFGP/BUFG/I0
+  Location pin: BUFGCTRL_X0Y31.I0
+  Clock network: Clock_BUFGP/IBUFG
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 0.500ns (Tcl)
+  Physical resource: counter_3/CLK
+  Logical resource: BLUE_PWM/counter_0/CK
+  Location pin: SLICE_X41Y85.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 0.500ns (Tch)
+  Physical resource: counter_3/CLK
+  Logical resource: BLUE_PWM/counter_0/CK
+  Location pin: SLICE_X41Y85.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.000ns (1000.000MHz) (Tcp)
+  Physical resource: counter_3/CLK
+  Logical resource: BLUE_PWM/counter_0/CK
+  Location pin: SLICE_X41Y85.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 0.500ns (Tcl)
+  Physical resource: counter_3/CLK
+  Logical resource: BLUE_PWM/counter_1/CK
+  Location pin: SLICE_X41Y85.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 0.500ns (Tch)
+  Physical resource: counter_3/CLK
+  Logical resource: BLUE_PWM/counter_1/CK
+  Location pin: SLICE_X41Y85.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.000ns (1000.000MHz) (Tcp)
+  Physical resource: counter_3/CLK
+  Logical resource: BLUE_PWM/counter_1/CK
+  Location pin: SLICE_X41Y85.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 0.500ns (Tcl)
+  Physical resource: counter_3/CLK
+  Logical resource: BLUE_PWM/counter_2/CK
+  Location pin: SLICE_X41Y85.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 0.500ns (Tch)
+  Physical resource: counter_3/CLK
+  Logical resource: BLUE_PWM/counter_2/CK
+  Location pin: SLICE_X41Y85.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.000ns (1000.000MHz) (Tcp)
+  Physical resource: counter_3/CLK
+  Logical resource: BLUE_PWM/counter_2/CK
+  Location pin: SLICE_X41Y85.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 0.500ns (Tcl)
+  Physical resource: counter_3/CLK
+  Logical resource: BLUE_PWM/counter_3/CK
+  Location pin: SLICE_X41Y85.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 0.500ns (Tch)
+  Physical resource: counter_3/CLK
+  Logical resource: BLUE_PWM/counter_3/CK
+  Location pin: SLICE_X41Y85.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.000ns (1000.000MHz) (Tcp)
+  Physical resource: counter_3/CLK
+  Logical resource: BLUE_PWM/counter_3/CK
+  Location pin: SLICE_X41Y85.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 0.500ns (Tcl)
+  Physical resource: counter_7/CLK
+  Logical resource: BLUE_PWM/counter_4/CK
+  Location pin: SLICE_X41Y86.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 0.500ns (Tch)
+  Physical resource: counter_7/CLK
+  Logical resource: BLUE_PWM/counter_4/CK
+  Location pin: SLICE_X41Y86.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.000ns (1000.000MHz) (Tcp)
+  Physical resource: counter_7/CLK
+  Logical resource: BLUE_PWM/counter_4/CK
+  Location pin: SLICE_X41Y86.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 0.500ns (Tcl)
+  Physical resource: counter_7/CLK
+  Logical resource: BLUE_PWM/counter_5/CK
+  Location pin: SLICE_X41Y86.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 0.500ns (Tch)
+  Physical resource: counter_7/CLK
+  Logical resource: BLUE_PWM/counter_5/CK
+  Location pin: SLICE_X41Y86.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.000ns (1000.000MHz) (Tcp)
+  Physical resource: counter_7/CLK
+  Logical resource: BLUE_PWM/counter_5/CK
+  Location pin: SLICE_X41Y86.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 0.500ns (Tcl)
+  Physical resource: counter_7/CLK
+  Logical resource: BLUE_PWM/counter_6/CK
+  Location pin: SLICE_X41Y86.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 0.500ns (Tch)
+  Physical resource: counter_7/CLK
+  Logical resource: BLUE_PWM/counter_6/CK
+  Location pin: SLICE_X41Y86.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.000ns (1000.000MHz) (Tcp)
+  Physical resource: counter_7/CLK
+  Logical resource: BLUE_PWM/counter_6/CK
+  Location pin: SLICE_X41Y86.CLK
+  Clock network: Clock_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock Clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clock          |    8.356|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 13679 paths, 0 nets, and 2554 connections
+
+Design statistics:
+   Minimum period:   8.356ns{1}   (Maximum frequency: 119.674MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Mon Apr 27 15:27:04 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 400 MB
+
+
+

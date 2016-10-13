@@ -1,0 +1,573 @@
+//! **************************************************************************
+// Written by: Map P.68d on Mon Apr 27 15:25:31 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "JC2" LOCATE = SITE "V11" LEVEL 1;
+COMP "JC3" LOCATE = SITE "V15" LEVEL 1;
+COMP "LCDEn" LOCATE = SITE "G4" LEVEL 1;
+COMP "RamCEn" LOCATE = SITE "L18" LEVEL 1;
+COMP "RamCLK" LOCATE = SITE "T15" LEVEL 1;
+COMP "RamCRE" LOCATE = SITE "J14" LEVEL 1;
+COMP "PS2Data" LOCATE = SITE "B2" LEVEL 1;
+COMP "MemAdr[10]" LOCATE = SITE "V14" LEVEL 1;
+COMP "MemAdr[12]" LOCATE = SITE "P14" LEVEL 1;
+COMP "MemAdr[11]" LOCATE = SITE "V12" LEVEL 1;
+COMP "MemAdr[14]" LOCATE = SITE "R15" LEVEL 1;
+COMP "MemAdr[13]" LOCATE = SITE "U16" LEVEL 1;
+COMP "MemAdr[16]" LOCATE = SITE "N16" LEVEL 1;
+COMP "MemAdr[15]" LOCATE = SITE "N14" LEVEL 1;
+COMP "MemAdr[18]" LOCATE = SITE "V17" LEVEL 1;
+COMP "MemAdr[17]" LOCATE = SITE "M13" LEVEL 1;
+COMP "MemAdr[19]" LOCATE = SITE "U17" LEVEL 1;
+COMP "MemAdr[20]" LOCATE = SITE "T10" LEVEL 1;
+COMP "MemAdr[22]" LOCATE = SITE "U13" LEVEL 1;
+COMP "MemAdr[21]" LOCATE = SITE "M16" LEVEL 1;
+COMP "sw0" LOCATE = SITE "U9" LEVEL 1;
+COMP "sw1" LOCATE = SITE "U8" LEVEL 1;
+COMP "vgaGreen[3]" LOCATE = SITE "A6" LEVEL 1;
+COMP "vgaGreen[1]" LOCATE = SITE "A5" LEVEL 1;
+COMP "vgaGreen[2]" LOCATE = SITE "B6" LEVEL 1;
+COMP "vgaGreen[0]" LOCATE = SITE "C6" LEVEL 1;
+COMP "LCDMode" LOCATE = SITE "H2" LEVEL 1;
+COMP "MemAdr[7]" LOCATE = SITE "N15" LEVEL 1;
+COMP "MemAdr[8]" LOCATE = SITE "V16" LEVEL 1;
+COMP "MemAdr[9]" LOCATE = SITE "U14" LEVEL 1;
+COMP "MemAdr[3]" LOCATE = SITE "J17" LEVEL 1;
+COMP "MemAdr[4]" LOCATE = SITE "H16" LEVEL 1;
+COMP "MemAdr[5]" LOCATE = SITE "K15" LEVEL 1;
+COMP "RamLBn" LOCATE = SITE "J15" LEVEL 1;
+COMP "MemAdr[6]" LOCATE = SITE "K13" LEVEL 1;
+COMP "MemAdr[0]" LOCATE = SITE "J18" LEVEL 1;
+COMP "MemAdr[1]" LOCATE = SITE "H17" LEVEL 1;
+COMP "MemAdr[2]" LOCATE = SITE "H15" LEVEL 1;
+COMP "btnC" LOCATE = SITE "E16" LEVEL 1;
+COMP "RamWait" LOCATE = SITE "T14" LEVEL 1;
+COMP "RamOEn" LOCATE = SITE "H14" LEVEL 1;
+COMP "MemDB[13]" LOCATE = SITE "P18" LEVEL 1;
+COMP "MemDB[14]" LOCATE = SITE "N17" LEVEL 1;
+COMP "MemDB[15]" LOCATE = SITE "P17" LEVEL 1;
+COMP "MemDB[10]" LOCATE = SITE "G17" LEVEL 1;
+COMP "MemDB[11]" LOCATE = SITE "M18" LEVEL 1;
+COMP "MemDB[12]" LOCATE = SITE "M17" LEVEL 1;
+COMP "vgaRed[3]" LOCATE = SITE "A4" LEVEL 1;
+COMP "vgaRed[0]" LOCATE = SITE "A3" LEVEL 1;
+COMP "vgaRed[2]" LOCATE = SITE "C5" LEVEL 1;
+COMP "vgaRed[1]" LOCATE = SITE "B4" LEVEL 1;
+COMP "vgaBlue[0]" LOCATE = SITE "B7" LEVEL 1;
+COMP "vgaBlue[2]" LOCATE = SITE "D7" LEVEL 1;
+COMP "vgaBlue[1]" LOCATE = SITE "C7" LEVEL 1;
+COMP "vgaBlue[3]" LOCATE = SITE "D8" LEVEL 1;
+COMP "RamUBn" LOCATE = SITE "J13" LEVEL 1;
+COMP "RamADVn" LOCATE = SITE "T13" LEVEL 1;
+COMP "RamWEn" LOCATE = SITE "R11" LEVEL 1;
+COMP "Vsync" LOCATE = SITE "B12" LEVEL 1;
+COMP "RsRx" LOCATE = SITE "C4" LEVEL 1;
+COMP "RsTx" LOCATE = SITE "D4" LEVEL 1;
+COMP "PS2Clk" LOCATE = SITE "F4" LEVEL 1;
+COMP "LCDData[3]" LOCATE = SITE "F3" LEVEL 1;
+COMP "LCDData[0]" LOCATE = SITE "H4" LEVEL 1;
+COMP "LCDData[1]" LOCATE = SITE "G2" LEVEL 1;
+COMP "LCDData[2]" LOCATE = SITE "H1" LEVEL 1;
+COMP "RGB1_Blue" LOCATE = SITE "F6" LEVEL 1;
+COMP "RGB1_Red" LOCATE = SITE "K5" LEVEL 1;
+COMP "Hsync" LOCATE = SITE "B11" LEVEL 1;
+COMP "MemDB[2]" LOCATE = SITE "U12" LEVEL 1;
+COMP "MemDB[1]" LOCATE = SITE "T11" LEVEL 1;
+COMP "MemDB[0]" LOCATE = SITE "R12" LEVEL 1;
+COMP "MemDB[6]" LOCATE = SITE "T18" LEVEL 1;
+COMP "MemDB[5]" LOCATE = SITE "R17" LEVEL 1;
+COMP "MemDB[4]" LOCATE = SITE "U18" LEVEL 1;
+COMP "MemDB[3]" LOCATE = SITE "R13" LEVEL 1;
+COMP "MemDB[9]" LOCATE = SITE "G18" LEVEL 1;
+COMP "MemDB[8]" LOCATE = SITE "F18" LEVEL 1;
+COMP "MemDB[7]" LOCATE = SITE "R18" LEVEL 1;
+COMP "RGB1_Green" LOCATE = SITE "F13" LEVEL 1;
+COMP "LED0" LOCATE = SITE "T8" LEVEL 1;
+COMP "Clock" LOCATE = SITE "E3" LEVEL 1;
+PIN
+        Inst_LCDinitROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<32>
+        = BEL
+        "Inst_LCDinitROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram"
+        PINNAME CLKARDCLK;
+PIN
+        Inst_LCDinitROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<33>
+        = BEL
+        "Inst_LCDinitROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram"
+        PINNAME CLKBWRCLK;
+PIN
+        Inst_connection_watchdog/Inst_connLostROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<32>
+        = BEL
+        "Inst_connection_watchdog/Inst_connLostROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram"
+        PINNAME CLKARDCLK;
+PIN
+        Inst_connection_watchdog/Inst_connLostROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<33>
+        = BEL
+        "Inst_connection_watchdog/Inst_connLostROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram"
+        PINNAME CLKBWRCLK;
+PIN
+        Inst_connection_watchdog/Inst_reconnROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<32>
+        = BEL
+        "Inst_connection_watchdog/Inst_reconnROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram"
+        PINNAME CLKARDCLK;
+PIN
+        Inst_connection_watchdog/Inst_reconnROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<33>
+        = BEL
+        "Inst_connection_watchdog/Inst_reconnROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram"
+        PINNAME CLKBWRCLK;
+PIN
+        Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<32>
+        = BEL
+        "Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram"
+        PINNAME CLKARDCLK;
+PIN
+        Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<33>
+        = BEL
+        "Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram"
+        PINNAME CLKBWRCLK;
+TIMEGRP sys_clk_pin = BEL "Clock_BUFGP/BUFG" BEL "clk_50_cnt_0" BEL
+        "regADCData_3" BEL "regADCData_4" BEL "regADCData_5" BEL "keyPulse"
+        BEL "regADCData_6" BEL "regADCData_7" BEL "regADCData_8" BEL
+        "regADCData_9" BEL "INST_UART_Controller/gapCounter_20" BEL
+        "INST_UART_Controller/gapCounter_19" BEL
+        "INST_UART_Controller/gapCounter_18" BEL
+        "INST_UART_Controller/gapCounter_17" BEL
+        "INST_UART_Controller/gapCounter_16" BEL
+        "INST_UART_Controller/gapCounter_15" BEL
+        "INST_UART_Controller/gapCounter_14" BEL
+        "INST_UART_Controller/gapCounter_13" BEL
+        "INST_UART_Controller/gapCounter_12" BEL
+        "INST_UART_Controller/gapCounter_11" BEL
+        "INST_UART_Controller/gapCounter_10" BEL
+        "INST_UART_Controller/gapCounter_9" BEL
+        "INST_UART_Controller/gapCounter_8" BEL
+        "INST_UART_Controller/gapCounter_7" BEL
+        "INST_UART_Controller/gapCounter_6" BEL
+        "INST_UART_Controller/gapCounter_5" BEL
+        "INST_UART_Controller/gapCounter_4" BEL
+        "INST_UART_Controller/gapCounter_3" BEL
+        "INST_UART_Controller/gapCounter_2" BEL
+        "INST_UART_Controller/gapCounter_1" BEL
+        "INST_UART_Controller/coordinateCount_1" BEL
+        "INST_UART_Controller/coordinateCount_0" BEL
+        "INST_UART_Controller/gapCounter_0" BEL
+        "INST_UART_Controller/state_FSM_FFd2" BEL
+        "INST_UART_Controller/dataToUART_7" BEL
+        "INST_UART_Controller/dataToUART_6" BEL
+        "INST_UART_Controller/dataToUART_5" BEL
+        "INST_UART_Controller/dataToUART_4" BEL
+        "INST_UART_Controller/dataToUART_3" BEL
+        "INST_UART_Controller/dataToUART_2" BEL
+        "INST_UART_Controller/dataToUART_1" BEL
+        "INST_UART_Controller/dataToUART_0" BEL
+        "INST_UART_Controller/startTrans" BEL
+        "INST_UART_Controller/transmitting" BEL
+        "Inst_VGA_Controller/vCounter_9" BEL "Inst_VGA_Controller/vCounter_8"
+        BEL "Inst_VGA_Controller/vCounter_7" BEL
+        "Inst_VGA_Controller/vCounter_6" BEL "Inst_VGA_Controller/vCounter_5"
+        BEL "Inst_VGA_Controller/vCounter_4" BEL
+        "Inst_VGA_Controller/vCounter_3" BEL "Inst_VGA_Controller/vCounter_2"
+        BEL "Inst_VGA_Controller/vCounter_1" BEL
+        "Inst_VGA_Controller/vCounter_0" BEL "Inst_VGA_Controller/hCounter_9"
+        BEL "Inst_VGA_Controller/hCounter_8" BEL
+        "Inst_VGA_Controller/hCounter_7" BEL "Inst_VGA_Controller/hCounter_6"
+        BEL "Inst_VGA_Controller/hCounter_5" BEL
+        "Inst_VGA_Controller/hCounter_4" BEL "Inst_VGA_Controller/hCounter_3"
+        BEL "Inst_VGA_Controller/hCounter_2" BEL
+        "Inst_VGA_Controller/hCounter_1" BEL "Inst_VGA_Controller/hCounter_0"
+        BEL "Inst_VGA_Controller/pixelClkCnt_1" BEL
+        "Inst_VGA_Controller/pixelClkEn" BEL "xReady" BEL
+        "Inst_PSRAM/clock_out" BEL "clk_50_en" BEL "yReady" BEL "keyData_0"
+        BEL "keyData_1" BEL "keyData_2" BEL "keyData_3" BEL "keyData_4" BEL
+        "keyData_5" BEL "keyData_6" BEL "keyData_7" BEL "Inst_UART/TxBitCnt_2"
+        BEL "Inst_UART/TxBitCnt_1" BEL "Inst_UART/TxBitCnt_0" BEL
+        "Inst_UART/TxEnableCnt_13" BEL "Inst_UART/TxEnableCnt_12" BEL
+        "Inst_UART/TxEnableCnt_11" BEL "Inst_UART/TxEnableCnt_10" BEL
+        "Inst_UART/TxEnableCnt_9" BEL "Inst_UART/TxEnableCnt_8" BEL
+        "Inst_UART/TxEnableCnt_7" BEL "Inst_UART/TxEnableCnt_6" BEL
+        "Inst_UART/TxEnableCnt_5" BEL "Inst_UART/TxEnableCnt_4" BEL
+        "Inst_UART/TxEnableCnt_3" BEL "Inst_UART/TxEnableCnt_2" BEL
+        "Inst_UART/TxEnableCnt_1" BEL "Inst_UART/TxEnableCnt_0" BEL
+        "Inst_UART/RxEnableCnt_13" BEL "Inst_UART/RxEnableCnt_12" BEL
+        "Inst_UART/RxEnableCnt_11" BEL "Inst_UART/RxEnableCnt_10" BEL
+        "Inst_UART/RxEnableCnt_9" BEL "Inst_UART/RxEnableCnt_8" BEL
+        "Inst_UART/RxEnableCnt_7" BEL "Inst_UART/RxEnableCnt_6" BEL
+        "Inst_UART/RxEnableCnt_5" BEL "Inst_UART/RxEnableCnt_4" BEL
+        "Inst_UART/RxEnableCnt_3" BEL "Inst_UART/RxEnableCnt_2" BEL
+        "Inst_UART/transState_FSM_FFd1" BEL "Inst_UART/transState_FSM_FFd2"
+        BEL "Inst_UART/RecData_7" BEL "Inst_UART/RecData_6" BEL
+        "Inst_UART/RecData_5" BEL "Inst_UART/RecData_4" BEL
+        "Inst_UART/RecData_3" BEL "Inst_UART/RecData_2" BEL
+        "Inst_UART/RecData_1" BEL "Inst_UART/RecData_0" BEL
+        "Inst_UART/readData_7" BEL "Inst_UART/readData_6" BEL
+        "Inst_UART/readData_5" BEL "Inst_UART/readData_4" BEL
+        "Inst_UART/readData_3" BEL "Inst_UART/readData_2" BEL
+        "Inst_UART/readData_1" BEL "Inst_UART/readData_0" BEL
+        "Inst_UART/recStateCurrent_3" BEL "Inst_UART/recStateCurrent_2" BEL
+        "Inst_UART/recStateCurrent_1" BEL "Inst_UART/recStateCurrent_0" BEL
+        "Inst_UART/recStateNext_3" BEL "Inst_UART/recStateNext_2" BEL
+        "Inst_UART/recStateNext_1" BEL "Inst_UART/recStateNext_0" BEL
+        "Inst_UART/TxEn" BEL "Inst_UART/DataToTrans_7" BEL
+        "Inst_UART/DataToTrans_6" BEL "Inst_UART/DataToTrans_5" BEL
+        "Inst_UART/DataToTrans_4" BEL "Inst_UART/DataToTrans_3" BEL
+        "Inst_UART/DataToTrans_2" BEL "Inst_UART/DataToTrans_1" BEL
+        "Inst_UART/DataToTrans_0" BEL "Inst_UART/Tx" BEL "Inst_UART/rxtest"
+        BEL "coorData_20" BEL "coorData_21" BEL "coorData_17" BEL
+        "coorData_22" BEL "coorData_23" BEL "coorData_18" BEL "coorData_24"
+        BEL "coorData_19" BEL "coorData_30" BEL "coorData_31" BEL
+        "coorData_26" BEL "coorData_32" BEL "coorData_27" BEL "coorData_33"
+        BEL "coorData_28" BEL "coorData_29" BEL "xregister_int_0" BEL
+        "strobeCnt_0" BEL "strobeCnt_1" BEL "strobeCnt_2" BEL "strobeCnt_3"
+        BEL "strobeCnt_4" BEL "strobeCnt_5" BEL "strobeCnt_6" BEL
+        "strobeCnt_7" BEL "strobeCnt_8" BEL "strobeCnt_9" BEL "regADCData_10"
+        BEL "regADCData_11" BEL "regADCData_12" BEL "regADCData_13" BEL
+        "regADCData_14" BEL "regADCData_15" BEL "vBlankUpper_0" BEL
+        "vBlankUpper_1" BEL "vBlankUpper_3" BEL "vBlankUpper_7" BEL
+        "Inst_LCD_initializer/initAddr_5" BEL
+        "Inst_LCD_initializer/initAddr_4" BEL
+        "Inst_LCD_initializer/initAddr_3" BEL
+        "Inst_LCD_initializer/initAddr_2" BEL
+        "Inst_LCD_initializer/initAddr_1" BEL
+        "Inst_LCD_initializer/initAddr_0" BEL "Inst_LCD_initializer/sel_1" BEL
+        "Inst_LCD_initializer/sel_0" BEL "Inst_LCD_initializer/waited20cnt_2"
+        BEL "Inst_LCD_initializer/waited20cnt_1" BEL
+        "Inst_LCD_initializer/waited20cnt_0" BEL
+        "Inst_LCD_initializer/cnt_200hz_18" BEL
+        "Inst_LCD_initializer/cnt_200hz_17" BEL
+        "Inst_LCD_initializer/cnt_200hz_16" BEL
+        "Inst_LCD_initializer/cnt_200hz_15" BEL
+        "Inst_LCD_initializer/cnt_200hz_14" BEL
+        "Inst_LCD_initializer/cnt_200hz_13" BEL
+        "Inst_LCD_initializer/cnt_200hz_12" BEL
+        "Inst_LCD_initializer/cnt_200hz_11" BEL
+        "Inst_LCD_initializer/cnt_200hz_10" BEL
+        "Inst_LCD_initializer/cnt_200hz_9" BEL
+        "Inst_LCD_initializer/cnt_200hz_8" BEL
+        "Inst_LCD_initializer/cnt_200hz_7" BEL
+        "Inst_LCD_initializer/cnt_200hz_6" BEL
+        "Inst_LCD_initializer/cnt_200hz_5" BEL
+        "Inst_LCD_initializer/cnt_200hz_4" BEL
+        "Inst_LCD_initializer/cnt_200hz_3" BEL
+        "Inst_LCD_initializer/cnt_200hz_2" BEL
+        "Inst_LCD_initializer/cnt_200hz_1" BEL
+        "Inst_LCD_initializer/cnt_200hz_0" BEL
+        "Inst_LCD_initializer/cnt_600hz_17" BEL
+        "Inst_LCD_initializer/cnt_600hz_16" BEL
+        "Inst_LCD_initializer/cnt_600hz_15" BEL
+        "Inst_LCD_initializer/cnt_600hz_14" BEL
+        "Inst_LCD_initializer/cnt_600hz_13" BEL
+        "Inst_LCD_initializer/cnt_600hz_12" BEL
+        "Inst_LCD_initializer/cnt_600hz_11" BEL
+        "Inst_LCD_initializer/cnt_600hz_10" BEL
+        "Inst_LCD_initializer/cnt_600hz_9" BEL
+        "Inst_LCD_initializer/cnt_600hz_8" BEL
+        "Inst_LCD_initializer/cnt_600hz_7" BEL
+        "Inst_LCD_initializer/cnt_600hz_6" BEL
+        "Inst_LCD_initializer/cnt_600hz_5" BEL
+        "Inst_LCD_initializer/cnt_600hz_4" BEL
+        "Inst_LCD_initializer/cnt_600hz_3" BEL
+        "Inst_LCD_initializer/cnt_600hz_2" BEL
+        "Inst_LCD_initializer/cnt_600hz_1" BEL
+        "Inst_LCD_initializer/cnt_600hz_0" BEL
+        "Inst_LCD_initializer/clk_en_600hz" BEL
+        "Inst_LCD_initializer/clk_en_200hz" BEL "Inst_LCD_initializer/init"
+        BEL "Inst_LCD_initializer/waited20ms" BEL "xRegister_0" BEL
+        "xRegister_1" BEL "xRegister_2" BEL "xRegister_3" BEL "xRegister_4"
+        BEL "xRegister_5" BEL "xRegister_6" BEL "xRegister_7" BEL
+        "xRegister_8" BEL "RED_PWM/regData_6" BEL "RED_PWM/regData_5" BEL
+        "RED_PWM/regData_4" BEL "RED_PWM/regData_3" BEL "RED_PWM/regData_2"
+        BEL "RED_PWM/regData_1" BEL "RED_PWM/regData_0" BEL "yRegister_0" BEL
+        "yRegister_1" BEL "yRegister_2" BEL "yRegister_3" BEL "yRegister_4"
+        BEL "yRegister_5" BEL "yRegister_6" BEL "yRegister_7" BEL
+        "yRegister_8" BEL "BLUE_PWM/counter_7" BEL "BLUE_PWM/counter_6" BEL
+        "BLUE_PWM/counter_5" BEL "BLUE_PWM/counter_4" BEL "BLUE_PWM/counter_3"
+        BEL "BLUE_PWM/counter_2" BEL "BLUE_PWM/counter_1" BEL
+        "BLUE_PWM/counter_0" BEL "BLUE_PWM/MHzCounter_4" BEL
+        "BLUE_PWM/MHzCounter_3" BEL "BLUE_PWM/MHzCounter_2" BEL
+        "BLUE_PWM/MHzCounter_1" BEL "BLUE_PWM/MHzCounter_0" BEL
+        "BLUE_PWM/regData_6" BEL "BLUE_PWM/regData_5" BEL "BLUE_PWM/regData_4"
+        BEL "BLUE_PWM/regData_3" BEL "BLUE_PWM/regData_2" BEL
+        "BLUE_PWM/regData_1" BEL "BLUE_PWM/regData_0" BEL "BLUE_PWM/countEN"
+        BEL "Inst_connection_watchdog/cnt_200hz_10" BEL
+        "Inst_connection_watchdog/cnt_200hz_11" BEL
+        "Inst_connection_watchdog/cnt_200hz_12" BEL
+        "Inst_connection_watchdog/cnt_200hz_13" BEL
+        "Inst_connection_watchdog/cnt_200hz_14" BEL
+        "Inst_connection_watchdog/cnt_200hz_15" BEL
+        "Inst_connection_watchdog/cnt_200hz_16" BEL
+        "Inst_connection_watchdog/cnt_200hz_17" BEL
+        "Inst_connection_watchdog/cnt_200hz_18" BEL
+        "Inst_connection_watchdog/clk_en_200hz" BEL
+        "Inst_connection_watchdog/cnt_200hz_0" BEL
+        "Inst_connection_watchdog/cnt_200hz_1" BEL
+        "Inst_connection_watchdog/cnt_200hz_2" BEL
+        "Inst_connection_watchdog/cnt_200hz_3" BEL
+        "Inst_connection_watchdog/cnt_200hz_4" BEL
+        "Inst_connection_watchdog/cnt_200hz_5" BEL
+        "Inst_connection_watchdog/cnt_200hz_6" BEL
+        "Inst_connection_watchdog/cnt_200hz_7" BEL
+        "Inst_connection_watchdog/cnt_200hz_8" BEL
+        "Inst_connection_watchdog/cnt_200hz_9" BEL
+        "Inst_connection_watchdog/cnt3Sec_10" BEL
+        "Inst_connection_watchdog/cnt3Sec_11" BEL
+        "Inst_connection_watchdog/cnt3Sec_12" BEL
+        "Inst_connection_watchdog/cnt3Sec_13" BEL
+        "Inst_connection_watchdog/cnt3Sec_14" BEL
+        "Inst_connection_watchdog/cnt3Sec_20" BEL
+        "Inst_connection_watchdog/cnt3Sec_15" BEL
+        "Inst_connection_watchdog/cnt3Sec_16" BEL
+        "Inst_connection_watchdog/cnt3Sec_21" BEL
+        "Inst_connection_watchdog/cnt3Sec_17" BEL
+        "Inst_connection_watchdog/cnt3Sec_22" BEL
+        "Inst_connection_watchdog/cnt3Sec_18" BEL
+        "Inst_connection_watchdog/cnt3Sec_23" BEL
+        "Inst_connection_watchdog/cnt3Sec_24" BEL
+        "Inst_connection_watchdog/cnt3Sec_19" BEL
+        "Inst_connection_watchdog/cnt3Sec_25" BEL
+        "Inst_connection_watchdog/cnt3Sec_26" BEL
+        "Inst_connection_watchdog/cnt3Sec_27" BEL
+        "Inst_connection_watchdog/cnt3Sec_28" BEL
+        "Inst_connection_watchdog/alertAddr_0" BEL
+        "Inst_connection_watchdog/alertAddr_1" BEL
+        "Inst_connection_watchdog/alertAddr_2" BEL
+        "Inst_connection_watchdog/alertAddr_3" BEL
+        "Inst_connection_watchdog/alertAddr_4" BEL
+        "Inst_connection_watchdog/alertAddr_5" BEL
+        "Inst_connection_watchdog/cnt_600hz_10" BEL
+        "Inst_connection_watchdog/cnt_600hz_11" BEL
+        "Inst_connection_watchdog/clk_en_600hz" BEL
+        "Inst_connection_watchdog/cnt_600hz_12" BEL
+        "Inst_connection_watchdog/cnt_600hz_13" BEL
+        "Inst_connection_watchdog/cnt_600hz_14" BEL
+        "Inst_connection_watchdog/cnt_600hz_15" BEL
+        "Inst_connection_watchdog/cnt_600hz_16" BEL
+        "Inst_connection_watchdog/cnt_600hz_17" BEL
+        "Inst_connection_watchdog/cnt3Sec_0" BEL
+        "Inst_connection_watchdog/cnt3Sec_1" BEL
+        "Inst_connection_watchdog/cnt3Sec_2" BEL
+        "Inst_connection_watchdog/cnt3Sec_3" BEL
+        "Inst_connection_watchdog/cnt3Sec_4" BEL
+        "Inst_connection_watchdog/cnt3Sec_5" BEL
+        "Inst_connection_watchdog/cnt3Sec_6" BEL
+        "Inst_connection_watchdog/cnt3Sec_7" BEL
+        "Inst_connection_watchdog/cnt3Sec_8" BEL
+        "Inst_connection_watchdog/cnt3Sec_9" BEL
+        "Inst_connection_watchdog/cnt_600hz_0" BEL
+        "Inst_connection_watchdog/oLCDData_0" BEL
+        "Inst_connection_watchdog/cnt_600hz_1" BEL
+        "Inst_connection_watchdog/cnt_600hz_2" BEL
+        "Inst_connection_watchdog/oLCDData_1" BEL
+        "Inst_connection_watchdog/oLCDData_2" BEL
+        "Inst_connection_watchdog/cnt_600hz_3" BEL
+        "Inst_connection_watchdog/oLCDData_3" BEL
+        "Inst_connection_watchdog/cnt_600hz_4" BEL
+        "Inst_connection_watchdog/cnt_600hz_5" BEL
+        "Inst_connection_watchdog/cnt_600hz_6" BEL
+        "Inst_connection_watchdog/cnt_600hz_7" BEL
+        "Inst_connection_watchdog/cnt_600hz_8" BEL
+        "Inst_connection_watchdog/cnt_600hz_9" BEL
+        "Inst_connection_watchdog/resetAddr_0" BEL
+        "Inst_connection_watchdog/resetAddr_1" BEL
+        "Inst_connection_watchdog/resetAddr_2" BEL
+        "Inst_connection_watchdog/resetAddr_3" BEL
+        "Inst_connection_watchdog/resetAddr_4" BEL
+        "Inst_connection_watchdog/regReceivedData_0" BEL
+        "Inst_connection_watchdog/regReceivedData_1" BEL
+        "Inst_connection_watchdog/regReceivedData_2" BEL
+        "Inst_connection_watchdog/regReceivedData_3" BEL
+        "Inst_connection_watchdog/regReceivedData_4" BEL
+        "Inst_connection_watchdog/regReceivedData_5" BEL
+        "Inst_connection_watchdog/regReceivedData_6" BEL
+        "Inst_connection_watchdog/regReceivedData_7" BEL
+        "Inst_connection_watchdog/oLCDRs" BEL
+        "Inst_connection_watchdog/cnt_time_10" BEL
+        "Inst_connection_watchdog/cnt_time_11" BEL
+        "Inst_connection_watchdog/cnt_time_12" BEL
+        "Inst_connection_watchdog/cnt_time_13" BEL
+        "Inst_connection_watchdog/cnt_time_14" BEL
+        "Inst_connection_watchdog/cnt_time_15" BEL
+        "Inst_connection_watchdog/cnt_time_20" BEL
+        "Inst_connection_watchdog/cnt_time_21" BEL
+        "Inst_connection_watchdog/cnt_time_16" BEL
+        "Inst_connection_watchdog/cnt_time_17" BEL
+        "Inst_connection_watchdog/cnt_time_22" BEL
+        "Inst_connection_watchdog/cnt_time_18" BEL
+        "Inst_connection_watchdog/cnt_time_23" BEL
+        "Inst_connection_watchdog/cnt_time_19" BEL
+        "Inst_connection_watchdog/cnt_time_24" BEL
+        "Inst_connection_watchdog/cnt_time_25" BEL
+        "Inst_connection_watchdog/cnt_time_26" BEL
+        "Inst_connection_watchdog/cnt_time_27" BEL
+        "Inst_connection_watchdog/cnt_time_28" BEL
+        "Inst_connection_watchdog/cnt_time_29" BEL
+        "Inst_connection_watchdog/cnt_time_0" BEL
+        "Inst_connection_watchdog/cnt_time_1" BEL
+        "Inst_connection_watchdog/cnt_time_2" BEL
+        "Inst_connection_watchdog/cnt_time_3" BEL
+        "Inst_connection_watchdog/cnt_time_4" BEL
+        "Inst_connection_watchdog/cnt_time_5" BEL
+        "Inst_connection_watchdog/cnt_time_6" BEL
+        "Inst_connection_watchdog/cnt_time_7" BEL
+        "Inst_connection_watchdog/cnt_time_8" BEL
+        "Inst_connection_watchdog/cnt_time_9" BEL
+        "Inst_connection_watchdog/sel_0" BEL "Inst_connection_watchdog/sel_1"
+        BEL "Inst_connection_watchdog/connLost" BEL
+        "Inst_connection_watchdog/state_FSM_FFd1" BEL
+        "Inst_connection_watchdog/state_FSM_FFd2" BEL
+        "Inst_connection_watchdog/state_FSM_FFd3" BEL
+        "Inst_PMOD_Controller/State_FSM_FFd2" BEL
+        "Inst_PMOD_Controller/count_0" BEL
+        "Inst_PMOD_Controller/Delay_Count_16" BEL
+        "Inst_PMOD_Controller/Delay_Count_15" BEL
+        "Inst_PMOD_Controller/Delay_Count_14" BEL
+        "Inst_PMOD_Controller/Delay_Count_13" BEL
+        "Inst_PMOD_Controller/Delay_Count_12" BEL
+        "Inst_PMOD_Controller/Delay_Count_11" BEL
+        "Inst_PMOD_Controller/Delay_Count_10" BEL
+        "Inst_PMOD_Controller/Delay_Count_9" BEL
+        "Inst_PMOD_Controller/Delay_Count_8" BEL
+        "Inst_PMOD_Controller/Delay_Count_7" BEL
+        "Inst_PMOD_Controller/Delay_Count_6" BEL
+        "Inst_PMOD_Controller/Delay_Count_5" BEL
+        "Inst_PMOD_Controller/Delay_Count_4" BEL
+        "Inst_PMOD_Controller/Delay_Count_3" BEL
+        "Inst_PMOD_Controller/Delay_Count_2" BEL
+        "Inst_PMOD_Controller/Delay_Count_1" BEL
+        "Inst_PMOD_Controller/Delay_Count_0" BEL
+        "Inst_PMOD_Controller/DataOut_15" BEL
+        "Inst_PMOD_Controller/DataOut_14" BEL
+        "Inst_PMOD_Controller/DataOut_13" BEL
+        "Inst_PMOD_Controller/DataOut_12" BEL
+        "Inst_PMOD_Controller/DataOut_11" BEL
+        "Inst_PMOD_Controller/DataOut_10" BEL "Inst_PMOD_Controller/DataOut_9"
+        BEL "Inst_PMOD_Controller/DataOut_8" BEL
+        "Inst_PMOD_Controller/DataOut_7" BEL "Inst_PMOD_Controller/DataOut_6"
+        BEL "Inst_PMOD_Controller/DataOut_5" BEL
+        "Inst_PMOD_Controller/DataOut_4" BEL "Inst_PMOD_Controller/DataOut_3"
+        BEL "Inst_PMOD_Controller/readwrite" BEL
+        "Inst_PMOD_Controller/regBusy" BEL "Inst_PMOD_Controller/writeData_5"
+        BEL "Inst_PMOD_Controller/initdone" BEL
+        "Inst_PMOD_Controller/Data_Ready_Pulse" BEL
+        "Inst_PMOD_Controller/output/data_rx_7" BEL
+        "Inst_PMOD_Controller/output/data_rx_6" BEL
+        "Inst_PMOD_Controller/output/data_rx_5" BEL
+        "Inst_PMOD_Controller/output/data_rx_4" BEL
+        "Inst_PMOD_Controller/output/data_rx_3" BEL
+        "Inst_PMOD_Controller/output/data_rx_2" BEL
+        "Inst_PMOD_Controller/output/data_rx_1" BEL
+        "Inst_PMOD_Controller/output/data_rx_0" BEL
+        "Inst_PMOD_Controller/output/data_clk_prev" BEL
+        "Inst_PMOD_Controller/output/addr_rw_0" BEL
+        "Inst_PMOD_Controller/output/data_clk" BEL
+        "Inst_PMOD_Controller/output/scl_clk" BEL
+        "Inst_PMOD_Controller/output/data_tx_5" BEL
+        "Inst_PMOD_Controller/output/state_FSM_FFd1" BEL
+        "Inst_PMOD_Controller/output/state_FSM_FFd2" BEL
+        "Inst_PMOD_Controller/output/state_FSM_FFd4" BEL
+        "Inst_PMOD_Controller/output/state_FSM_FFd3" BEL
+        "Inst_PMOD_Controller/output/data_rd_7" BEL
+        "Inst_PMOD_Controller/output/data_rd_6" BEL
+        "Inst_PMOD_Controller/output/data_rd_5" BEL
+        "Inst_PMOD_Controller/output/data_rd_4" BEL
+        "Inst_PMOD_Controller/output/data_rd_3" BEL
+        "Inst_PMOD_Controller/output/data_rd_2" BEL
+        "Inst_PMOD_Controller/output/data_rd_1" BEL
+        "Inst_PMOD_Controller/output/data_rd_0" BEL
+        "Inst_PMOD_Controller/output/count_9" BEL
+        "Inst_PMOD_Controller/output/count_8" BEL
+        "Inst_PMOD_Controller/output/count_7" BEL
+        "Inst_PMOD_Controller/output/count_6" BEL
+        "Inst_PMOD_Controller/output/count_5" BEL
+        "Inst_PMOD_Controller/output/count_4" BEL
+        "Inst_PMOD_Controller/output/count_3" BEL
+        "Inst_PMOD_Controller/output/count_2" BEL
+        "Inst_PMOD_Controller/output/count_1" BEL
+        "Inst_PMOD_Controller/output/count_0" BEL
+        "Inst_PMOD_Controller/output/bit_cnt_2" BEL
+        "Inst_PMOD_Controller/output/bit_cnt_1" BEL
+        "Inst_PMOD_Controller/output/bit_cnt_0" BEL
+        "Inst_PMOD_Controller/output/sda_int" BEL
+        "Inst_PMOD_Controller/output/busy" BEL
+        "Inst_PMOD_Controller/output/scl_ena" BEL
+        "Inst_PMOD_Controller/output/stretch" BEL
+        "Inst_PMOD_Controller/State_FSM_FFd1" BEL "GREEN_PWM/regData_6" BEL
+        "GREEN_PWM/regData_5" BEL "GREEN_PWM/regData_4" BEL
+        "GREEN_PWM/regData_3" BEL "GREEN_PWM/regData_2" BEL
+        "GREEN_PWM/regData_1" BEL "GREEN_PWM/regData_0" BEL
+        "Inst_color_change/bluePWMData_7" BEL
+        "Inst_color_change/bluePWMData_6" BEL
+        "Inst_color_change/bluePWMData_5" BEL
+        "Inst_color_change/bluePWMData_4" BEL
+        "Inst_color_change/bluePWMData_3" BEL
+        "Inst_color_change/bluePWMData_2" BEL
+        "Inst_color_change/bluePWMData_1" BEL
+        "Inst_color_change/greenPWMData_7" BEL
+        "Inst_color_change/greenPWMData_6" BEL
+        "Inst_color_change/greenPWMData_5" BEL
+        "Inst_color_change/greenPWMData_4" BEL
+        "Inst_color_change/greenPWMData_3" BEL
+        "Inst_color_change/greenPWMData_2" BEL
+        "Inst_color_change/greenPWMData_1" BEL
+        "Inst_color_change/redPWMData_7" BEL "Inst_color_change/redPWMData_6"
+        BEL "Inst_color_change/redPWMData_5" BEL
+        "Inst_color_change/redPWMData_4" BEL "Inst_color_change/redPWMData_3"
+        BEL "Inst_color_change/redPWMData_2" BEL
+        "Inst_color_change/registerPointer_2" BEL
+        "Inst_color_change/registerPointer_1" BEL
+        "Inst_color_change/registerPointer_0" BEL
+        "Inst_color_change/redPWMData_1" BEL "Inst_color_change/state" BEL
+        "Inst_color_change/keyboardArray_0_3" BEL
+        "Inst_color_change/keyboardArray_0_2" BEL
+        "Inst_color_change/keyboardArray_0_1" BEL
+        "Inst_color_change/keyboardArray_0_0" BEL
+        "Inst_color_change/keyboardArray_2_3" BEL
+        "Inst_color_change/keyboardArray_2_2" BEL
+        "Inst_color_change/keyboardArray_2_1" BEL
+        "Inst_color_change/keyboardArray_2_0" BEL
+        "Inst_color_change/keyboardArray_3_3" BEL
+        "Inst_color_change/keyboardArray_3_2" BEL
+        "Inst_color_change/keyboardArray_3_1" BEL
+        "Inst_color_change/keyboardArray_1_3" BEL
+        "Inst_color_change/keyboardArray_1_2" BEL
+        "Inst_color_change/keyboardArray_1_1" BEL
+        "Inst_color_change/keyboardArray_4_3" BEL
+        "Inst_color_change/keyboardArray_4_2" BEL
+        "Inst_color_change/keyboardArray_4_1" BEL
+        "Inst_color_change/keyboardArray_4_0" BEL
+        "Inst_color_change/keyboardArray_5_3" BEL
+        "Inst_color_change/keyboardArray_5_2" BEL
+        "Inst_color_change/keyboardArray_5_1" BEL
+        "Inst_keyboard_controller/regData_7" BEL
+        "Inst_keyboard_controller/regData_6" BEL
+        "Inst_keyboard_controller/regData_5" BEL
+        "Inst_keyboard_controller/regData_4" BEL
+        "Inst_keyboard_controller/regData_3" BEL
+        "Inst_keyboard_controller/regData_2" BEL
+        "Inst_keyboard_controller/regData_1" BEL
+        "Inst_keyboard_controller/regData_0" BEL
+        "Inst_keyboard_controller/recPulse" BEL
+        "Inst_keyboard_controller/beenSent" BEL "yregister_int_0" BEL
+        "strobeCnt_10" BEL "strobeCnt_11" BEL "strobeCnt_12" BEL
+        "strobeCnt_13" BEL "strobeCnt_14" BEL "strobeCnt_15" BEL
+        "strobeCnt_20" BEL "strobeCnt_21" BEL "strobeCnt_16" BEL
+        "strobeCnt_22" BEL "strobeCnt_17" BEL "strobeCnt_23" BEL
+        "strobeCnt_18" BEL "strobeCnt_19" BEL "strobeState_0" BEL "strobeEn"
+        PIN
+        "Inst_LCDinitROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<32>"
+        PIN
+        "Inst_LCDinitROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<33>"
+        PIN
+        "Inst_connection_watchdog/Inst_connLostROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<32>"
+        PIN
+        "Inst_connection_watchdog/Inst_connLostROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<33>"
+        PIN
+        "Inst_connection_watchdog/Inst_reconnROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<32>"
+        PIN
+        "Inst_connection_watchdog/Inst_reconnROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<33>"
+        PIN
+        "Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<32>"
+        PIN
+        "Inst_keyboardROM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram_pins<33>";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

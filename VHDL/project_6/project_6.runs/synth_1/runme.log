@@ -1,0 +1,1447 @@
+
+*** Running xst
+    with args -ifn "top_level.xst" -ofn "top_level.srp" -intstyle ise
+
+Reading design: top_level.prj
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_8/bigCanvasMessage.vhd" into library work
+Parsing entity <bigCanvasMessage>.
+Parsing architecture <bigCanvasMessage_a> of entity <bigcanvasmessage>.
+Parsing VHDL file "c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_7/smallCanvasMessage.vhd" into library work
+Parsing entity <smallCanvasMessage>.
+Parsing architecture <smallCanvasMessage_a> of entity <smallcanvasmessage>.
+Parsing VHDL file "c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_4/reconnROM.vhd" into library work
+Parsing entity <reconnROM>.
+Parsing architecture <reconnROM_a> of entity <reconnrom>.
+Parsing VHDL file "c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_3/connLostROM.vhd" into library work
+Parsing entity <connLostROM>.
+Parsing architecture <connLostROM_a> of entity <connlostrom>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/i2c_master.vhd" into library work
+Parsing entity <i2c_master>.
+INFO:HDLCompiler:1676 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/i2c_master.vhd" Line 47. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+Parsing architecture <logic> of entity <i2c_master>.
+WARNING:HDLCompiler:957 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/i2c_master.vhd" Line 90: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/i2c_master.vhd" Line 95: Case choice must be a locally static expression
+WARNING:HDLCompiler:957 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/i2c_master.vhd" Line 100: Case choice must be a locally static expression
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/new/LCD_Controller.vhd" into library work
+Parsing entity <LCD_Controller>.
+Parsing architecture <Behavioral> of entity <lcd_controller>.
+Parsing VHDL file "c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_6/Write_Buffer.vhd" into library work
+Parsing entity <Write_Buffer>.
+Parsing architecture <Write_Buffer_a> of entity <write_buffer>.
+Parsing VHDL file "c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_5/PSRAM_Buffer.vhd" into library work
+Parsing entity <PSRAM_Buffer>.
+Parsing architecture <PSRAM_Buffer_a> of entity <psram_buffer>.
+Parsing VHDL file "c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_2/LCDinitROM.vhd" into library work
+Parsing entity <LCDinitROM>.
+Parsing architecture <LCDinitROM_a> of entity <lcdinitrom>.
+Parsing VHDL file "c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_1/keyboardROM.vhd" into library work
+Parsing entity <keyboardROM>.
+Parsing architecture <keyboardROM_a> of entity <keyboardrom>.
+Parsing VHDL file "c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_0/CGROM.vhd" into library work
+Parsing entity <CGROM>.
+Parsing architecture <CGROM_a> of entity <cgrom>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/VGA_Controller.vhd" into library work
+Parsing entity <VGA_Controller>.
+Parsing architecture <behavioral> of entity <vga_controller>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART.vhd" into library work
+Parsing entity <UART>.
+Parsing architecture <Behavioral> of entity <uart>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/PSRAM.vhd" into library work
+Parsing entity <PSRAM>.
+Parsing architecture <Behavioral> of entity <psram>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/LCD_initializer.vhd" into library work
+Parsing entity <LCD_initializer>.
+Parsing architecture <Behavioral> of entity <lcd_initializer>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/keyboard_controller.vhd" into library work
+Parsing entity <keyboard_controller>.
+Parsing architecture <Behavioral> of entity <keyboard_controller>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/connection_watchdog.vhd" into library work
+Parsing entity <connection_watchdog>.
+Parsing architecture <Behavioral> of entity <connection_watchdog>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/Clk_en.vhd" into library work
+Parsing entity <Clk_en>.
+Parsing architecture <Behavioral> of entity <clk_en>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/Desktop/Pmod_Controller.vhd" into library work
+Parsing entity <Pmod_Controller>.
+Parsing architecture <behavioral> of entity <pmod_controller>.
+INFO:HDLCompiler:1676 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/Desktop/Pmod_Controller.vhd" Line 31. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" into library work
+Parsing entity <top_level>.
+Parsing architecture <Behavioral> of entity <top_level>.
+WARNING:HDLCompiler:946 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" Line 661: Actual for formal port addrb is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART_Controller.vhd" into library work
+Parsing entity <UART_Controller>.
+Parsing architecture <Behavioral> of entity <uart_controller>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/new/color_change.vhd" into library work
+Parsing entity <color_change>.
+Parsing architecture <Behavioral> of entity <color_change>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/PWMcontroller.vhd" into library work
+Parsing entity <PWMcontroller>.
+Parsing architecture <behavioral> of entity <pwmcontroller>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/new/width_change.vhd" into library work
+Parsing entity <width_change>.
+Parsing architecture <Behavioral> of entity <width_change>.
+Parsing VHDL file "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/SPI_Controller.vhd" into library work
+Parsing entity <SPI_Controller>.
+Parsing architecture <Behavioral> of entity <spi_controller>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <top_level> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <VGA_Controller> (architecture <behavioral>) from library <work>.
+WARNING:HDLCompiler:1127 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/VGA_Controller.vhd" Line 57: Assignment to hcountvec ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/VGA_Controller.vhd" Line 58: Assignment to vcountvec ignored, since the identifier is never used
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/VGA_Controller.vhd" Line 141: vblanklower should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/VGA_Controller.vhd" Line 151: i_vgared should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/VGA_Controller.vhd" Line 152: i_vgagreen should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/VGA_Controller.vhd" Line 153: i_vgablue should be on the sensitivity list of the process
+
+Elaborating entity <Pmod_Controller> (architecture <behavioral>) from library <work>.
+
+Elaborating entity <i2c_master> (architecture <logic>) with generics from library <work>.
+
+Elaborating entity <CGROM> (architecture <CGROM_a>) from library <work>.
+
+Elaborating entity <UART> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:871 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART.vhd" Line 42: Using initial value 10415 for txenablemax since it is never assigned
+WARNING:HDLCompiler:871 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART.vhd" Line 43: Using initial value 10415 for rxenablemax since it is never assigned
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART.vhd" Line 52: transpulse should be on the sensitivity list of the process
+
+Elaborating entity <UART_Controller> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:1127 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART_Controller.vhd" Line 67: Assignment to keyboardsend ignored, since the identifier is never used
+INFO:HDLCompiler:679 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART_Controller.vhd" Line 170. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART_Controller.vhd" Line 189: count should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART_Controller.vhd" Line 199: transmitting should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART_Controller.vhd" Line 215: coordinatecount should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART_Controller.vhd" Line 217: xcoordata should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART_Controller.vhd" Line 219: ycoordata should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART_Controller.vhd" Line 220. Case statement is complete. others clause is never selected
+
+Elaborating entity <LCD_initializer> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/LCD_initializer.vhd" Line 111: sel should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/LCD_initializer.vhd" Line 115. Case statement is complete. others clause is never selected
+
+Elaborating entity <keyboardROM> (architecture <keyboardROM_a>) from library <work>.
+
+Elaborating entity <LCDinitROM> (architecture <LCDinitROM_a>) from library <work>.
+
+Elaborating entity <keyboard_controller> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:871 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/keyboard_controller.vhd" Line 29: Using initial value 33 for risemax since it is never assigned
+
+Elaborating entity <connection_watchdog> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:871 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/connection_watchdog.vhd" Line 56: Using initial value 699999999 for timeoutmax since it is never assigned
+INFO:HDLCompiler:679 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/connection_watchdog.vhd" Line 193. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/connection_watchdog.vhd" Line 216: sel should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/connection_watchdog.vhd" Line 220. Case statement is complete. others clause is never selected
+
+Elaborating entity <connLostROM> (architecture <connLostROM_a>) from library <work>.
+
+Elaborating entity <reconnROM> (architecture <reconnROM_a>) from library <work>.
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" Line 583: strobestate should be on the sensitivity list of the process
+INFO:HDLCompiler:679 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" Line 586. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" Line 594: recdata should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" Line 595: recdata should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" Line 596: recdata should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" Line 600: watchrs should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" Line 601: watchen should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" Line 602: watchdata should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" Line 604: initrs should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" Line 605: initen should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" Line 606: initdata should be on the sensitivity list of the process
+
+Elaborating entity <color_change> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <PWMcontroller> (architecture <behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/PWMcontroller.vhd" Line 77: regdata should be on the sensitivity list of the process
+
+Elaborating entity <width_change> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <PSRAM_Buffer> (architecture <PSRAM_Buffer_a>) from library <work>.
+
+Elaborating entity <PSRAM> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:871 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/PSRAM.vhd" Line 70: Using initial value '0' for data_ready since it is never assigned
+WARNING:HDLCompiler:1127 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/PSRAM.vhd" Line 119: Assignment to writing_out ignored, since the identifier is never used
+WARNING:Xst:2972 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" line 645. All outputs of instance <Inst_width_change> of block <width_change> are unconnected in block <top_level>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <top_level>.
+    Related source file is "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd".
+INFO:Xst:3210 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" line 431: Output port <Sample_Done> of the instance <Inst_PMOD_Controller> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" line 450: Output port <douta> of the instance <Inst_CGROM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" line 645: Output port <cursorSize> of the instance <Inst_width_change> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/top_level.vhd" line 756: Output port <read_done_signal> of the instance <Inst_PSRAM> is unconnected or connected to loadless signal.
+    Register <hBlankUpper> equivalent to <vBlankUpper> has been removed
+    Found 9-bit register for signal <vBlankUpper>.
+    Found 16-bit register for signal <regADCData>.
+    Found 1-bit register for signal <keyPulse>.
+    Found 8-bit register for signal <keyData>.
+    Found 24-bit register for signal <strobeCnt>.
+    Found 1-bit register for signal <strobeEn>.
+    Found 1-bit register for signal <LED0>.
+    Found 1-bit register for signal <clk_50_en>.
+    Found 1-bit register for signal <clk_50_cnt>.
+    Found 9-bit register for signal <xRegister>.
+    Found 1-bit register for signal <xReady>.
+    Found 9-bit register for signal <yRegister>.
+    Found 1-bit register for signal <yReady>.
+    Found 34-bit register for signal <coorData>.
+    Found 32-bit register for signal <xregister_int>.
+    Found 32-bit register for signal <yregister_int>.
+    Found 1-bit register for signal <PSRAM_pulse>.
+    Found 16-bit register for signal <write_data>.
+    Found 18-bit register for signal <PSRAM_write_length>.
+    Found 32-bit register for signal <init_counter>.
+    Found 1-bit register for signal <init_done>.
+    Found 1-bit register for signal <PSRAM_RW>.
+    Found 32-bit register for signal <addr_counter>.
+    Found 24-bit adder for signal <strobeCnt[23]_GND_4_o_add_13_OUT> created at line 564.
+    Found 1-bit adder for signal <strobeState[0]_PWR_4_o_add_17_OUT<0>> created at line 577.
+    Found 1-bit adder for signal <clk_50_cnt[0]_PWR_4_o_add_24_OUT<0>> created at line 674.
+    Found 32-bit adder for signal <init_counter[31]_GND_4_o_add_45_OUT> created at line 714.
+    Found 10-bit adder for signal <n0245[9:0]> created at line 722.
+    Found 32-bit adder for signal <GND_4_o_xregister_int[31]_add_55_OUT> created at line 734.
+    Found 19-bit adder for signal <n0251[18:0]> created at line 736.
+    Found 32-bit adder for signal <yregister_int[22]_GND_4_o_add_61_OUT> created at line 738.
+    Found 32-bit adder for signal <yregister_int[22]_xregister_int[31]_add_62_OUT> created at line 740.
+    Found 32-bit comparator greater for signal <init_counter[31]_GND_4_o_LessThan_45_o> created at line 708
+    Found 10-bit comparator greater for signal <hBlankUpper[9]_pixelX[9]_LessThan_49_o> created at line 721
+    Found 9-bit comparator greater for signal <pixelY[8]_vBlankUpper[8]_LessThan_50_o> created at line 721
+    Found 9-bit comparator greater for signal <vBlankUpper[8]_pixelY[8]_LessThan_53_o> created at line 729
+    Found 32-bit comparator greater for signal <GND_4_o_xregister_int[31]_LessThan_55_o> created at line 733
+    Found 32-bit comparator greater for signal <yregister_int[31]_GND_4_o_LessThan_57_o> created at line 735
+    Found 32-bit comparator greater for signal <GND_4_o_yregister_int[31]_LessThan_60_o> created at line 737
+    Found 32-bit comparator greater for signal <xregister_int[31]_GND_4_o_LessThan_61_o> created at line 737
+    WARNING:Xst:2404 -  FFs/Latches <vBlankLower<1:9>> (without init value) have a constant value of 0 in block <top_level>.
+    WARNING:Xst:2404 -  FFs/Latches <hBlankLower<1:10>> (without init value) have a constant value of 0 in block <top_level>.
+    WARNING:Xst:2404 -  FFs/Latches <hBlankUpper<9:9>> (without init value) have a constant value of 0 in block <top_level>.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred 281 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+	inferred  13 Multiplexer(s).
+Unit <top_level> synthesized.
+
+Synthesizing Unit <VGA_Controller>.
+    Related source file is "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/VGA_Controller.vhd".
+    Register <pixelClkout> equivalent to <pixelClkEn> has been removed
+    Found 1-bit register for signal <pixelClkEn>.
+    Found 10-bit register for signal <hCounter>.
+    Found 10-bit register for signal <vCounter>.
+    Found 2-bit register for signal <pixelClkCnt>.
+    Found 2-bit adder for signal <pixelClkCnt[1]_GND_5_o_add_5_OUT> created at line 69.
+    Found 10-bit adder for signal <hCounter[9]_GND_5_o_add_9_OUT> created at line 83.
+    Found 10-bit adder for signal <vCounter[9]_GND_5_o_add_22_OUT> created at line 116.
+WARNING:Xst:737 - Found 1-bit latch for signal <HS>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <VS>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 10-bit comparator greater for signal <n0013> created at line 91
+    Found 10-bit comparator greater for signal <n0016> created at line 93
+    Found 10-bit comparator greater for signal <n0020> created at line 95
+    Found 10-bit comparator lessequal for signal <n0024> created at line 97
+    Found 10-bit comparator greater for signal <n0040> created at line 124
+    Found 10-bit comparator greater for signal <n0043> created at line 126
+    Found 10-bit comparator greater for signal <n0047> created at line 128
+    Found 10-bit comparator lessequal for signal <n0051> created at line 130
+    Found 32-bit comparator lessequal for signal <n0059> created at line 141
+    Found 32-bit comparator lessequal for signal <n0061> created at line 141
+    Found 32-bit comparator lessequal for signal <n0063> created at line 141
+    Found 32-bit comparator lessequal for signal <n0065> created at line 141
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  23 D-type flip-flop(s).
+	inferred   2 Latch(s).
+	inferred  12 Comparator(s).
+	inferred   7 Multiplexer(s).
+Unit <VGA_Controller> synthesized.
+
+Synthesizing Unit <Pmod_Controller>.
+    Related source file is "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/Desktop/Pmod_Controller.vhd".
+INFO:Xst:3210 - "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/Desktop/Pmod_Controller.vhd" line 62: Output port <ack_error> of the instance <output> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <Sample_Done> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit register for signal <enable>.
+    Found 1-bit register for signal <readwrite>.
+    Found 3-bit register for signal <State>.
+    Found 1-bit register for signal <regBusy>.
+    Found 8-bit register for signal <writeData>.
+    Found 1-bit register for signal <initdone>.
+    Found 32-bit register for signal <count>.
+    Found 1-bit register for signal <Data_Ready_Pulse>.
+    Found 16-bit register for signal <DataOut>.
+    Found 32-bit register for signal <Delay_Count>.
+INFO:Xst:1799 - State stop is never reached in FSM <State>.
+    Found finite state machine <FSM_0> for signal <State>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | Clock (rising_edge)                            |
+    | Power Up State     | start                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 32-bit adder for signal <count[31]_GND_144_o_add_5_OUT> created at line 120.
+    Found 32-bit subtractor for signal <Delay_Count[31]_GND_144_o_sub_15_OUT<31:0>> created at line 146.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  93 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <Pmod_Controller> synthesized.
+
+Synthesizing Unit <i2c_master>.
+    Related source file is "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/i2c_master.vhd".
+        input_clk = 100000000
+        bus_clk = 150000
+    Found 1-bit register for signal <sda_int>.
+    Found 1-bit register for signal <busy>.
+    Found 3-bit register for signal <bit_cnt>.
+    Found 17-bit register for signal <count>.
+    Found 4-bit register for signal <state>.
+    Found 8-bit register for signal <data_rd>.
+    Found 1-bit register for signal <scl_ena>.
+    Found 1-bit register for signal <ack_error>.
+    Found 1-bit register for signal <stretch>.
+    Found 1-bit register for signal <data_clk_prev>.
+    Found 1-bit register for signal <scl_clk>.
+    Found 1-bit register for signal <data_clk>.
+    Found 8-bit register for signal <addr_rw>.
+    Found 8-bit register for signal <data_tx>.
+    Found 8-bit register for signal <data_rx>.
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 36                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset_n (negative)                             |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | ready                                          |
+    | Power Up State     | ready                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 17-bit adder for signal <count[16]_GND_145_o_add_1_OUT> created at line 85.
+    Found 3-bit subtractor for signal <GND_145_o_GND_145_o_sub_27_OUT<2:0>> created at line 171.
+    Found 1-bit 8-to-1 multiplexer for signal <bit_cnt[2]_addr_rw[7]_Mux_15_o> created at line 141.
+    Found 1-bit 8-to-1 multiplexer for signal <GND_145_o_addr_rw[7]_Mux_19_o> created at line 150.
+    Found 1-bit 8-to-1 multiplexer for signal <bit_cnt[2]_data_tx[7]_Mux_22_o> created at line 155.
+    Found 1-bit 8-to-1 multiplexer for signal <GND_145_o_data_tx[7]_Mux_27_o> created at line 171.
+    Found 1-bit 8-to-1 multiplexer for signal <bit_cnt[2]_data_wr[7]_Mux_37_o> created at line 198.
+    Found 1-bit tristate buffer for signal <scl> created at line 264
+    Found 1-bit tristate buffer for signal <sda> created at line 265
+    Found 17-bit comparator lessequal for signal <GND_145_o_count[16]_LessThan_5_o> created at line 90
+    Found 17-bit comparator greater for signal <count[16]_GND_145_o_LessThan_6_o> created at line 95
+    Found 17-bit comparator greater for signal <GND_145_o_count[16]_LessThan_7_o> created at line 95
+    Found 17-bit comparator greater for signal <count[16]_GND_145_o_LessThan_8_o> created at line 100
+    Found 17-bit comparator greater for signal <GND_145_o_count[16]_LessThan_9_o> created at line 100
+    Found 8-bit comparator equal for signal <addr_rw[7]_addr[6]_equal_43_o> created at line 213
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  60 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+	inferred  31 Multiplexer(s).
+	inferred   2 Tristate(s).
+	inferred   1 Finite State Machine(s).
+Unit <i2c_master> synthesized.
+
+Synthesizing Unit <UART>.
+    Related source file is "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART.vhd".
+        TxBaudSpeed = 9600
+        RxBaudSpeed = 9600
+        Boardspeed = 100000000
+        StartBit = '0'
+        StopBit = '1'
+    Found 1-bit register for signal <TxEn>.
+    Found 32-bit register for signal <TxEnableCnt>.
+    Found 1-bit register for signal <Tx>.
+    Found 2-bit register for signal <transState>.
+    Found 32-bit register for signal <TxBitCnt>.
+    Found 4-bit register for signal <recStateCurrent>.
+    Found 32-bit register for signal <RxEnableCnt>.
+    Found 1-bit register for signal <rxtest>.
+    Found 4-bit register for signal <recStateNext>.
+    Found 8-bit register for signal <readData>.
+    Found 8-bit register for signal <RecData>.
+    Found 8-bit register for signal <DataToTrans>.
+    Found finite state machine <FSM_2> for signal <transState>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | Clock (rising_edge)                            |
+    | Power Up State     | waitstate                                      |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 32-bit adder for signal <TxEnableCnt[31]_GND_164_o_add_5_OUT> created at line 64.
+    Found 32-bit adder for signal <TxBitCnt[31]_GND_164_o_add_11_OUT> created at line 87.
+    Found 32-bit adder for signal <RxEnableCnt[31]_GND_164_o_add_25_OUT> created at line 106.
+    Found 1-bit 8-to-1 multiplexer for signal <TxBitCnt[2]_DataToTrans[7]_Mux_9_o> created at line 81.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred 131 D-type flip-flop(s).
+	inferred   9 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <UART> synthesized.
+
+Synthesizing Unit <UART_Controller>.
+    Related source file is "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/UART_Controller.vhd".
+WARNING:Xst:647 - Input <color> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <connLost> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 24-bit register for signal <gapCounter>.
+    Found 2-bit register for signal <state>.
+    Found 8-bit register for signal <dataToUART>.
+    Found 1-bit register for signal <startTrans>.
+    Found 3-bit register for signal <count>.
+    Found 2-bit register for signal <coordinateCount>.
+    Found 1-bit register for signal <transmitting>.
+INFO:Xst:1799 - State transition is never reached in FSM <state>.
+    Found finite state machine <FSM_3> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | iClk (rising_edge)                             |
+    | Power Up State     | pause                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 24-bit adder for signal <gapCounter[23]_GND_165_o_add_2_OUT> created at line 56.
+    Found 3-bit adder for signal <count[2]_GND_165_o_add_21_OUT> created at line 182.
+    Found 2-bit adder for signal <coordinateCount[1]_GND_165_o_add_28_OUT> created at line 206.
+    Found 8x1-bit Read Only RAM for signal <transitionPulse>
+    Found 8-bit 4-to-1 multiplexer for signal <transData> created at line 215.
+    Found 3-bit comparator greater for signal <count[2]_GND_165_o_LessThan_9_o> created at line 153
+    Summary:
+	inferred   1 RAM(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred  39 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   9 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <UART_Controller> synthesized.
+
+Synthesizing Unit <LCD_initializer>.
+    Related source file is "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/LCD_initializer.vhd".
+WARNING:Xst:647 - Input <rData<7:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 18-bit register for signal <cnt_600hz>.
+    Found 1-bit register for signal <clk_en_200hz>.
+    Found 19-bit register for signal <cnt_200hz>.
+    Found 1-bit register for signal <waited20ms>.
+    Found 3-bit register for signal <waited20cnt>.
+    Found 6-bit register for signal <initAddr>.
+    Found 1-bit register for signal <init>.
+    Found 2-bit register for signal <sel>.
+    Found 1-bit register for signal <clk_en_600hz>.
+    Found 18-bit adder for signal <cnt_600hz[17]_GND_166_o_add_1_OUT> created at line 50.
+    Found 19-bit adder for signal <cnt_200hz[18]_GND_166_o_add_5_OUT> created at line 67.
+    Found 3-bit adder for signal <waited20cnt[2]_GND_166_o_add_9_OUT> created at line 80.
+    Found 6-bit adder for signal <initAddr[5]_GND_166_o_add_14_OUT> created at line 1241.
+    Found 2-bit adder for signal <sel[1]_GND_166_o_add_19_OUT> created at line 107.
+    Found 6-bit comparator greater for signal <n0020> created at line 88
+    Summary:
+	inferred   5 Adder/Subtractor(s).
+	inferred  52 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <LCD_initializer> synthesized.
+
+Synthesizing Unit <keyboard_controller>.
+    Related source file is "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/keyboard_controller.vhd".
+    Found 1-bit register for signal <beenSent>.
+    Found 1-bit register for signal <recPulse>.
+    Found 32-bit register for signal <riseCnt>.
+    Found 8-bit register for signal <readData>.
+    Found 8-bit register for signal <regData>.
+    Found 32-bit adder for signal <riseCnt[31]_GND_169_o_add_6_OUT> created at line 57.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  50 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <keyboard_controller> synthesized.
+
+Synthesizing Unit <connection_watchdog>.
+    Related source file is "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/connection_watchdog.vhd".
+        waitTime = 699999999
+    Found 1-bit register for signal <clk_en_200hz>.
+    Found 1-bit register for signal <clk_en_600hz>.
+    Found 18-bit register for signal <cnt_600hz>.
+    Found 8-bit register for signal <regReceivedData>.
+    Found 30-bit register for signal <cnt_time>.
+    Found 3-bit register for signal <state>.
+    Found 1-bit register for signal <connLost>.
+    Found 6-bit register for signal <alertAddr>.
+    Found 6-bit register for signal <resetAddr>.
+    Found 29-bit register for signal <cnt3Sec>.
+    Found 2-bit register for signal <sel>.
+    Found 4-bit register for signal <oLCDData>.
+    Found 1-bit register for signal <oLCDRs>.
+    Found 19-bit register for signal <cnt_200hz>.
+    Found finite state machine <FSM_4> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 13                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 6                                              |
+    | Clock              | iClk (rising_edge)                             |
+    | Power Up State     | watch                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 19-bit adder for signal <cnt_200hz[18]_GND_170_o_add_3_OUT> created at line 80.
+    Found 18-bit adder for signal <cnt_600hz[17]_GND_170_o_add_10_OUT> created at line 102.
+    Found 30-bit adder for signal <cnt_time[29]_GND_170_o_add_16_OUT> created at line 135.
+    Found 6-bit adder for signal <alertAddr[5]_GND_170_o_add_22_OUT> created at line 1241.
+    Found 6-bit adder for signal <resetAddr[5]_GND_170_o_add_30_OUT> created at line 1241.
+    Found 29-bit adder for signal <cnt3Sec[28]_GND_170_o_add_36_OUT> created at line 191.
+    Found 2-bit adder for signal <sel[1]_GND_170_o_add_55_OUT> created at line 209.
+    Found 8-bit comparator equal for signal <receivedData[7]_regReceivedData[7]_equal_15_o> created at line 127
+    Found 6-bit comparator greater for signal <n0024> created at line 146
+    Found 6-bit comparator greater for signal <n0034> created at line 171
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred 126 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred  13 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <connection_watchdog> synthesized.
+
+Synthesizing Unit <color_change>.
+    Related source file is "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/new/color_change.vhd".
+WARNING:Xst:653 - Signal <color<15:12>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 3-bit register for signal <registerPointer>.
+    Found 1-bit register for signal <color<11>>.
+    Found 1-bit register for signal <color<10>>.
+    Found 1-bit register for signal <color<9>>.
+    Found 1-bit register for signal <color<8>>.
+    Found 1-bit register for signal <color<7>>.
+    Found 1-bit register for signal <color<6>>.
+    Found 1-bit register for signal <color<5>>.
+    Found 1-bit register for signal <color<4>>.
+    Found 1-bit register for signal <color<3>>.
+    Found 1-bit register for signal <color<2>>.
+    Found 1-bit register for signal <color<1>>.
+    Found 1-bit register for signal <color<0>>.
+    Found 8-bit register for signal <redPWMData>.
+    Found 8-bit register for signal <greenPWMData>.
+    Found 8-bit register for signal <bluePWMData>.
+    Found 4-bit register for signal <keyboardArray<5>>.
+    Found 4-bit register for signal <keyboardArray<4>>.
+    Found 4-bit register for signal <keyboardArray<3>>.
+    Found 4-bit register for signal <keyboardArray<2>>.
+    Found 4-bit register for signal <keyboardArray<1>>.
+    Found 4-bit register for signal <keyboardArray<0>>.
+    Found 1-bit register for signal <state>.
+    Found 3-bit adder for signal <registerPointer[2]_GND_173_o_add_14_OUT> created at line 60.
+    Found 3-bit subtractor for signal <GND_173_o_GND_173_o_sub_26_OUT<2:0>> created at line 68.
+WARNING:Xst:737 - Found 1-bit latch for signal <hex<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <hex<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <hex<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <hex<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 8-bit comparator lessequal for signal <n0002> created at line 54
+    Found 8-bit comparator lessequal for signal <n0004> created at line 54
+    Found 8-bit comparator lessequal for signal <n0007> created at line 54
+    Found 8-bit comparator lessequal for signal <n0009> created at line 54
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  64 D-type flip-flop(s).
+	inferred   4 Latch(s).
+	inferred   4 Comparator(s).
+	inferred  12 Multiplexer(s).
+Unit <color_change> synthesized.
+
+Synthesizing Unit <PWMcontroller>.
+    Related source file is "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/PWMcontroller.vhd".
+WARNING:Xst:647 - Input <iData<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 5-bit register for signal <MHzCounter>.
+    Found 1-bit register for signal <countEN>.
+    Found 9-bit register for signal <counter>.
+    Found 8-bit register for signal <regData>.
+    Found 5-bit adder for signal <MHzCounter[4]_GND_178_o_add_4_OUT> created at line 58.
+    Found 9-bit adder for signal <counter[8]_GND_178_o_add_8_OUT> created at line 70.
+    Found 9-bit comparator greater for signal <oPWM> created at line 77
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  23 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <PWMcontroller> synthesized.
+
+Synthesizing Unit <PSRAM>.
+    Related source file is "C:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/imports/import VHDL/PSRAM.vhd".
+    Found 1-bit register for signal <clock_out>.
+    Found 1-bit register for signal <ADV>.
+    Found 4-bit register for signal <current_state>.
+    Found 18-bit register for signal <counter>.
+    Found 23-bit register for signal <ADDRESS>.
+    Found 1-bit register for signal <CRE>.
+    Found 1-bit register for signal <CE>.
+    Found 1-bit register for signal <OE>.
+    Found 1-bit register for signal <WE>.
+    Found 1-bit register for signal <UB>.
+    Found 1-bit register for signal <LB>.
+    Found 1-bit register for signal <clk_out_en>.
+    Found 16-bit register for signal <current_state[3]_dff_70_OUT>.
+    Found 32-bit register for signal <write_count>.
+    Found 1-bit register for signal <reading_data>.
+    Found 16-bit register for signal <data_out>.
+    Found 32-bit register for signal <row_count>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_361>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_362>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_363>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_364>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_365>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_366>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_367>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_368>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_369>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_370>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_371>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_372>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_373>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_374>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_375>.
+    Found 1-bit register for signal <current_state[3]_psram_clock_DFF_376>.
+    Found 1-bit register for signal <psram_clock>.
+INFO:Xst:1799 - State start_up is never reached in FSM <current_state>.
+INFO:Xst:1799 - State writing is never reached in FSM <current_state>.
+INFO:Xst:1799 - State reading is never reached in FSM <current_state>.
+INFO:Xst:1799 - State array_read_setup is never reached in FSM <current_state>.
+    Found finite state machine <FSM_5> for signal <current_state>.
+    -----------------------------------------------------------------------
+    | States             | 12                                             |
+    | Transitions        | 17                                             |
+    | Inputs             | 9                                              |
+    | Outputs            | 21                                             |
+    | Clock              | psram_clock (rising_edge)                      |
+    | Power Up State     | init                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 18-bit adder for signal <counter[17]_GND_184_o_add_20_OUT> created at line 252.
+    Found 32-bit adder for signal <write_count[31]_GND_184_o_add_23_OUT> created at line 270.
+    Found 32-bit adder for signal <row_count[31]_GND_184_o_add_31_OUT> created at line 335.
+    Found 1-bit tristate buffer for signal <DATA<15>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<14>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<13>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<12>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<11>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<10>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<9>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<8>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<7>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<6>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<5>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<4>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<3>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<2>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<1>> created at line 119
+    Found 1-bit tristate buffer for signal <DATA<0>> created at line 119
+    Found 18-bit comparator greater for signal <n0006> created at line 135
+    Found 18-bit comparator greater for signal <n0041> created at line 246
+    Found 32-bit comparator equal for signal <GND_184_o_write_count[31]_equal_25_o> created at line 286
+    Found 18-bit comparator greater for signal <n0065> created at line 367
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred 164 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  42 Multiplexer(s).
+	inferred  16 Tristate(s).
+	inferred   1 Finite State Machine(s).
+Unit <PSRAM> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x1-bit single-port Read Only RAM                     : 1
+# Adders/Subtractors                                   : 43
+ 1-bit adder                                           : 2
+ 10-bit adder                                          : 3
+ 17-bit adder                                          : 1
+ 18-bit adder                                          : 3
+ 19-bit adder                                          : 3
+ 2-bit adder                                           : 4
+ 24-bit adder                                          : 2
+ 29-bit adder                                          : 1
+ 3-bit adder                                           : 2
+ 3-bit addsub                                          : 1
+ 3-bit subtractor                                      : 1
+ 30-bit adder                                          : 1
+ 32-bit adder                                          : 9
+ 32-bit subtractor                                     : 1
+ 5-bit adder                                           : 3
+ 6-bit adder                                           : 3
+ 9-bit adder                                           : 3
+# Registers                                            : 162
+ 1-bit register                                        : 82
+ 10-bit register                                       : 2
+ 16-bit register                                       : 5
+ 17-bit register                                       : 1
+ 18-bit register                                       : 4
+ 19-bit register                                       : 2
+ 2-bit register                                        : 4
+ 23-bit register                                       : 1
+ 24-bit register                                       : 2
+ 29-bit register                                       : 1
+ 3-bit register                                        : 4
+ 30-bit register                                       : 1
+ 32-bit register                                       : 12
+ 34-bit register                                       : 1
+ 4-bit register                                        : 9
+ 5-bit register                                        : 3
+ 6-bit register                                        : 3
+ 8-bit register                                        : 19
+ 9-bit register                                        : 6
+# Latches                                              : 6
+ 1-bit latch                                           : 6
+# Comparators                                          : 42
+ 10-bit comparator greater                             : 7
+ 10-bit comparator lessequal                           : 2
+ 17-bit comparator greater                             : 4
+ 17-bit comparator lessequal                           : 1
+ 18-bit comparator greater                             : 3
+ 3-bit comparator greater                              : 1
+ 32-bit comparator equal                               : 1
+ 32-bit comparator greater                             : 5
+ 32-bit comparator lessequal                           : 4
+ 6-bit comparator greater                              : 3
+ 8-bit comparator equal                                : 2
+ 8-bit comparator lessequal                            : 4
+ 9-bit comparator greater                              : 5
+# Multiplexers                                         : 142
+ 1-bit 2-to-1 multiplexer                              : 65
+ 1-bit 8-to-1 multiplexer                              : 6
+ 16-bit 2-to-1 multiplexer                             : 2
+ 17-bit 2-to-1 multiplexer                             : 2
+ 18-bit 2-to-1 multiplexer                             : 11
+ 19-bit 2-to-1 multiplexer                             : 3
+ 2-bit 2-to-1 multiplexer                              : 4
+ 23-bit 2-to-1 multiplexer                             : 1
+ 24-bit 2-to-1 multiplexer                             : 1
+ 29-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 8
+ 30-bit 2-to-1 multiplexer                             : 2
+ 32-bit 2-to-1 multiplexer                             : 11
+ 4-bit 2-to-1 multiplexer                              : 12
+ 6-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 10
+ 8-bit 4-to-1 multiplexer                              : 1
+# Tristates                                            : 18
+ 1-bit tristate buffer                                 : 18
+# FSMs                                                 : 6
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_0/CGROM.ngc>.
+Reading core <c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_1/keyboardROM.ngc>.
+Reading core <c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_2/LCDinitROM.ngc>.
+Reading core <c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_5/PSRAM_Buffer.ngc>.
+Reading core <c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_3/connLostROM.ngc>.
+Reading core <c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_4/reconnROM.ngc>.
+Loading core <CGROM> for timing and area information for instance <Inst_CGROM>.
+Loading core <keyboardROM> for timing and area information for instance <Inst_keyboardROM>.
+Loading core <LCDinitROM> for timing and area information for instance <Inst_LCDinitROM>.
+Loading core <PSRAM_Buffer> for timing and area information for instance <Inst_PSRAM_Buffer>.
+Loading core <connLostROM> for timing and area information for instance <Inst_connLostROM>.
+Loading core <reconnROM> for timing and area information for instance <Inst_reconnROM>.
+WARNING:Xst:2404 -  FFs/Latches <addr_rw<7:7>> (without init value) have a constant value of 0 in block <i2c_master>.
+
+Synthesizing (advanced) Unit <LCD_initializer>.
+The following registers are absorbed into counter <cnt_200hz>: 1 register on signal <cnt_200hz>.
+The following registers are absorbed into counter <cnt_600hz>: 1 register on signal <cnt_600hz>.
+The following registers are absorbed into counter <waited20cnt>: 1 register on signal <waited20cnt>.
+The following registers are absorbed into counter <initAddr>: 1 register on signal <initAddr>.
+The following registers are absorbed into counter <sel>: 1 register on signal <sel>.
+Unit <LCD_initializer> synthesized (advanced).
+
+Synthesizing (advanced) Unit <PSRAM>.
+The following registers are absorbed into counter <row_count>: 1 register on signal <row_count>.
+The following registers are absorbed into counter <write_count>: 1 register on signal <write_count>.
+Unit <PSRAM> synthesized (advanced).
+
+Synthesizing (advanced) Unit <PWMcontroller>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+The following registers are absorbed into counter <MHzCounter>: 1 register on signal <MHzCounter>.
+Unit <PWMcontroller> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Pmod_Controller>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+The following registers are absorbed into counter <Delay_Count>: 1 register on signal <Delay_Count>.
+Unit <Pmod_Controller> synthesized (advanced).
+
+Synthesizing (advanced) Unit <UART>.
+The following registers are absorbed into counter <RxEnableCnt>: 1 register on signal <RxEnableCnt>.
+The following registers are absorbed into counter <TxEnableCnt>: 1 register on signal <TxEnableCnt>.
+The following registers are absorbed into counter <TxBitCnt>: 1 register on signal <TxBitCnt>.
+Unit <UART> synthesized (advanced).
+
+Synthesizing (advanced) Unit <UART_Controller>.
+The following registers are absorbed into counter <gapCounter>: 1 register on signal <gapCounter>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+The following registers are absorbed into counter <coordinateCount>: 1 register on signal <coordinateCount>.
+INFO:Xst:3231 - The small RAM <Mram_transitionPulse> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 1-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <count>         |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <transitionPulse> |          |
+    -----------------------------------------------------------------------
+Unit <UART_Controller> synthesized (advanced).
+
+Synthesizing (advanced) Unit <VGA_Controller>.
+The following registers are absorbed into counter <pixelClkCnt>: 1 register on signal <pixelClkCnt>.
+The following registers are absorbed into counter <hCounter>: 1 register on signal <hCounter>.
+The following registers are absorbed into counter <vCounter>: 1 register on signal <vCounter>.
+Unit <VGA_Controller> synthesized (advanced).
+
+Synthesizing (advanced) Unit <connection_watchdog>.
+The following registers are absorbed into counter <alertAddr>: 1 register on signal <alertAddr>.
+The following registers are absorbed into counter <resetAddr>: 1 register on signal <resetAddr>.
+The following registers are absorbed into counter <cnt3Sec>: 1 register on signal <cnt3Sec>.
+Unit <connection_watchdog> synthesized (advanced).
+
+Synthesizing (advanced) Unit <keyboard_controller>.
+The following registers are absorbed into counter <riseCnt>: 1 register on signal <riseCnt>.
+Unit <keyboard_controller> synthesized (advanced).
+
+Synthesizing (advanced) Unit <top_level>.
+The following registers are absorbed into counter <clk_50_cnt_0>: 1 register on signal <clk_50_cnt_0>.
+The following registers are absorbed into counter <strobeState_0>: 1 register on signal <strobeState_0>.
+The following registers are absorbed into counter <init_counter>: 1 register on signal <init_counter>.
+The following registers are absorbed into counter <strobeCnt>: 1 register on signal <strobeCnt>.
+Unit <top_level> synthesized (advanced).
+WARNING:Xst:2677 - Node <regADCData_0> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <regADCData_1> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <regADCData_2> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_0> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_1> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_2> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_3> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_4> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_5> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_6> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_7> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_8> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_9> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_10> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_11> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_12> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_13> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_14> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_15> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_16> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <coorData_25> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <addr_counter_23> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <addr_counter_24> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <addr_counter_25> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <addr_counter_26> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <addr_counter_27> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <addr_counter_28> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <addr_counter_29> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <addr_counter_30> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <addr_counter_31> of sequential type is unconnected in block <top_level>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 8x1-bit single-port distributed Read Only RAM         : 1
+# Adders/Subtractors                                   : 11
+ 10-bit adder                                          : 1
+ 17-bit adder                                          : 1
+ 18-bit adder                                          : 2
+ 19-bit adder                                          : 2
+ 2-bit adder                                           : 1
+ 3-bit addsub                                          : 1
+ 3-bit subtractor                                      : 1
+ 30-bit adder                                          : 1
+ 32-bit adder                                          : 1
+# Counters                                             : 32
+ 1-bit up counter                                      : 2
+ 10-bit up counter                                     : 2
+ 18-bit up counter                                     : 1
+ 19-bit up counter                                     : 1
+ 2-bit up counter                                      : 3
+ 24-bit up counter                                     : 2
+ 29-bit up counter                                     : 1
+ 3-bit up counter                                      : 2
+ 32-bit down counter                                   : 1
+ 32-bit up counter                                     : 8
+ 5-bit up counter                                      : 3
+ 6-bit up counter                                      : 3
+ 9-bit up counter                                      : 3
+# Registers                                            : 625
+ Flip-Flops                                            : 625
+# Comparators                                          : 42
+ 10-bit comparator greater                             : 7
+ 10-bit comparator lessequal                           : 2
+ 17-bit comparator greater                             : 4
+ 17-bit comparator lessequal                           : 1
+ 18-bit comparator greater                             : 3
+ 3-bit comparator greater                              : 1
+ 32-bit comparator equal                               : 1
+ 32-bit comparator greater                             : 5
+ 32-bit comparator lessequal                           : 4
+ 6-bit comparator greater                              : 3
+ 8-bit comparator equal                                : 2
+ 8-bit comparator lessequal                            : 4
+ 9-bit comparator greater                              : 5
+# Multiplexers                                         : 136
+ 1-bit 2-to-1 multiplexer                              : 76
+ 1-bit 8-to-1 multiplexer                              : 6
+ 16-bit 2-to-1 multiplexer                             : 2
+ 17-bit 2-to-1 multiplexer                             : 2
+ 18-bit 2-to-1 multiplexer                             : 10
+ 19-bit 2-to-1 multiplexer                             : 2
+ 2-bit 2-to-1 multiplexer                              : 2
+ 23-bit 2-to-1 multiplexer                             : 1
+ 3-bit 2-to-1 multiplexer                              : 7
+ 30-bit 2-to-1 multiplexer                             : 2
+ 32-bit 2-to-1 multiplexer                             : 6
+ 4-bit 2-to-1 multiplexer                              : 9
+ 8-bit 2-to-1 multiplexer                              : 10
+ 8-bit 4-to-1 multiplexer                              : 1
+# FSMs                                                 : 6
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch writeData_5 hinder the constant cleaning in the block Pmod_Controller.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1293 - FF/Latch <writeData_0> has a constant value of 0 in block <Pmod_Controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <writeData_1> has a constant value of 0 in block <Pmod_Controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <writeData_2> has a constant value of 0 in block <Pmod_Controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <writeData_3> has a constant value of 0 in block <Pmod_Controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <writeData_4> has a constant value of 1 in block <Pmod_Controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <writeData_6> has a constant value of 0 in block <Pmod_Controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <writeData_7> has a constant value of 0 in block <Pmod_Controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <addr_rw_1> (without init value) has a constant value of 0 in block <i2c_master>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <addr_rw_2> (without init value) has a constant value of 0 in block <i2c_master>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <addr_rw_3> (without init value) has a constant value of 0 in block <i2c_master>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <addr_rw_4> (without init value) has a constant value of 1 in block <i2c_master>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <addr_rw_5> (without init value) has a constant value of 0 in block <i2c_master>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <addr_rw_6> (without init value) has a constant value of 1 in block <i2c_master>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <regData_7> has a constant value of 0 in block <PWMcontroller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1426 - The value init of the FF/Latch clk_out_en hinder the constant cleaning in the block PSRAM.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch vBlankUpper_8 hinder the constant cleaning in the block top_level.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1426 - The value init of the FF/Latch vBlankUpper_4 hinder the constant cleaning in the block top_level.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1426 - The value init of the FF/Latch vBlankUpper_2 hinder the constant cleaning in the block top_level.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1426 - The value init of the FF/Latch vBlankUpper_0 hinder the constant cleaning in the block top_level.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_1> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_2> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_3> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_4> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_5> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_6> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_7> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_8> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_9> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_11> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_12> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_13> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <PSRAM_write_length_14> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_16> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_17> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_18> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_19> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_20> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_21> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_22> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_23> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_24> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_25> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_26> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_27> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_28> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_29> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_30> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_31> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_9> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_10> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_11> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_12> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_13> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_14> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_15> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_16> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_17> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_18> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_19> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_20> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_21> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_22> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_23> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_24> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_25> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_26> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_27> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_28> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_29> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_30> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <xregister_int_31> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_9> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_10> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_11> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_12> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_13> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_14> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <yregister_int_15> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <greenPWMData_4> in Unit <color_change> is equivalent to the following FF/Latch, which will be removed : <color_4> 
+INFO:Xst:2261 - The FF/Latch <greenPWMData_5> in Unit <color_change> is equivalent to the following FF/Latch, which will be removed : <color_5> 
+INFO:Xst:2261 - The FF/Latch <greenPWMData_6> in Unit <color_change> is equivalent to the following FF/Latch, which will be removed : <color_6> 
+INFO:Xst:2261 - The FF/Latch <greenPWMData_7> in Unit <color_change> is equivalent to the following FF/Latch, which will be removed : <color_7> 
+INFO:Xst:2261 - The FF/Latch <bluePWMData_4> in Unit <color_change> is equivalent to the following FF/Latch, which will be removed : <color_0> 
+INFO:Xst:2261 - The FF/Latch <bluePWMData_5> in Unit <color_change> is equivalent to the following FF/Latch, which will be removed : <color_1> 
+INFO:Xst:2261 - The FF/Latch <redPWMData_4> in Unit <color_change> is equivalent to the following FF/Latch, which will be removed : <color_8> 
+INFO:Xst:2261 - The FF/Latch <bluePWMData_6> in Unit <color_change> is equivalent to the following FF/Latch, which will be removed : <color_2> 
+INFO:Xst:2261 - The FF/Latch <redPWMData_5> in Unit <color_change> is equivalent to the following FF/Latch, which will be removed : <color_9> 
+INFO:Xst:2261 - The FF/Latch <bluePWMData_7> in Unit <color_change> is equivalent to the following FF/Latch, which will be removed : <color_3> 
+INFO:Xst:2261 - The FF/Latch <redPWMData_6> in Unit <color_change> is equivalent to the following FF/Latch, which will be removed : <color_10> 
+INFO:Xst:2261 - The FF/Latch <redPWMData_7> in Unit <color_change> is equivalent to the following FF/Latch, which will be removed : <color_11> 
+INFO:Xst:2261 - The FF/Latch <current_state[3]_psram_clock_DFF_361> in Unit <PSRAM> is equivalent to the following 15 FFs/Latches, which will be removed : <current_state[3]_psram_clock_DFF_364> <current_state[3]_psram_clock_DFF_362> <current_state[3]_psram_clock_DFF_363> <current_state[3]_psram_clock_DFF_367> <current_state[3]_psram_clock_DFF_365> <current_state[3]_psram_clock_DFF_366> <current_state[3]_psram_clock_DFF_370> <current_state[3]_psram_clock_DFF_368> <current_state[3]_psram_clock_DFF_369> <current_state[3]_psram_clock_DFF_373> <current_state[3]_psram_clock_DFF_371> <current_state[3]_psram_clock_DFF_372> <current_state[3]_psram_clock_DFF_376> <current_state[3]_psram_clock_DFF_374> <current_state[3]_psram_clock_DFF_375> 
+INFO:Xst:2261 - The FF/Latch <coorData_30> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <xregister_int_5> 
+INFO:Xst:2261 - The FF/Latch <coorData_31> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <xregister_int_6> 
+INFO:Xst:2261 - The FF/Latch <coorData_32> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <xregister_int_7> 
+INFO:Xst:2261 - The FF/Latch <coorData_33> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <xregister_int_8> 
+INFO:Xst:2261 - The FF/Latch <vBlankUpper_3> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <vBlankUpper_5> 
+INFO:Xst:2261 - The FF/Latch <vBlankUpper_1> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <vBlankUpper_6> 
+INFO:Xst:2261 - The FF/Latch <vBlankUpper_0> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <vBlankUpper_2> <vBlankUpper_4> 
+INFO:Xst:2261 - The FF/Latch <coorData_17> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <yregister_int_1> 
+INFO:Xst:2261 - The FF/Latch <coorData_18> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <yregister_int_2> 
+INFO:Xst:2261 - The FF/Latch <coorData_19> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <yregister_int_3> 
+INFO:Xst:2261 - The FF/Latch <coorData_20> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <yregister_int_4> 
+INFO:Xst:2261 - The FF/Latch <coorData_21> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <yregister_int_5> 
+INFO:Xst:2261 - The FF/Latch <coorData_22> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <yregister_int_6> 
+INFO:Xst:2261 - The FF/Latch <coorData_23> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <yregister_int_7> 
+INFO:Xst:2261 - The FF/Latch <coorData_24> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <yregister_int_8> 
+INFO:Xst:2261 - The FF/Latch <PSRAM_write_length_10> in Unit <top_level> is equivalent to the following 3 FFs/Latches, which will be removed : <PSRAM_write_length_15> <PSRAM_write_length_16> <PSRAM_write_length_17> 
+INFO:Xst:2261 - The FF/Latch <coorData_26> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <xregister_int_1> 
+INFO:Xst:2261 - The FF/Latch <coorData_27> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <xregister_int_2> 
+INFO:Xst:2261 - The FF/Latch <coorData_28> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <xregister_int_3> 
+INFO:Xst:2261 - The FF/Latch <coorData_29> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <xregister_int_4> 
+INFO:Xst:2261 - The FF/Latch <data_tx_0> in Unit <i2c_master> is equivalent to the following 5 FFs/Latches, which will be removed : <data_tx_1> <data_tx_2> <data_tx_3> <data_tx_6> <data_tx_7> 
+WARNING:Xst:1710 - FF/Latch <data_tx_0> (without init value) has a constant value of 0 in block <i2c_master>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_tx_4> (without init value) has a constant value of 1 in block <i2c_master>. This FF/Latch will be trimmed during the optimization process.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Inst_PMOD_Controller/FSM_0> on signal <State[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ start | 00
+ init  | 11
+ read  | 01
+ stop  | unreached
+ delay | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Inst_PMOD_Controller/output/FSM_1> on signal <state[1:4]> with user encoding.
+----------------------
+ State    | Encoding
+----------------------
+ ready    | 0000
+ start    | 0001
+ command  | 0010
+ slv_ack1 | 0011
+ wr       | 0100
+ rd       | 0101
+ slv_ack2 | 0110
+ mstr_ack | 0111
+ stop     | 1000
+----------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Inst_UART/FSM_2> on signal <transState[1:2]> with gray encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ waitstate | 00
+ start     | 01
+ transbits | 11
+ stop      | 10
+-----------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <INST_UART_Controller/FSM_3> on signal <state[1:2]> with user encoding.
+--------------------------
+ State        | Encoding
+--------------------------
+ pause        | 00
+ transition   | unreached
+ sendcoor     | 10
+ sendkeyboard | 11
+--------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Inst_connection_watchdog/FSM_4> on signal <state[1:3]> with user encoding.
+---------------------
+ State   | Encoding
+---------------------
+ watch   | 000
+ alert   | 001
+ listen  | 010
+ reset   | 011
+ waiting | 100
+---------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Inst_PSRAM/FSM_5> on signal <current_state[1:4]> with user encoding.
+------------------------------
+ State            | Encoding
+------------------------------
+ start_up         | unreached
+ idle             | 0001
+ writing          | unreached
+ reading          | unreached
+ init             | 0100
+ bcr_write        | 0101
+ array_read_setup | unreached
+ array_read       | 0111
+ burst_read_setup | 1000
+ burst_read_cycle | 1001
+ write_cycle      | 1010
+ write_setup      | 1011
+------------------------------
+WARNING:Xst:1426 - The value init of the FF/Latch state_FSM_FFd1 hinder the constant cleaning in the block UART_Controller.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1293 - FF/Latch <addr_counter_19> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <addr_counter_20> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <addr_counter_21> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <addr_counter_22> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <UB> in Unit <PSRAM> is equivalent to the following FF/Latch, which will be removed : <LB> 
+WARNING:Xst:1710 - FF/Latch <Inst_PSRAM/ADDRESS_22> (without init value) has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Inst_PSRAM/ADDRESS_21> (without init value) has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Inst_PSRAM/ADDRESS_20> (without init value) has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <Inst_PMOD_Controller/DataOut_2> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_PMOD_Controller/DataOut_1> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_PMOD_Controller/DataOut_0> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_PMOD_Controller/output/ack_error> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:3001 - This design contains one or more registers or latches with an active
+   asynchronous set and asynchronous reset. While this circuit can be built,
+   it creates a sub-optimal implementation in terms of area, power and
+   performance. For a more optimal implementation Xilinx highly recommends
+   one of the following:
+
+          1) Remove either the set or reset from all registers and latches if
+             not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Artix7 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set and reset:
+    HS in unit <VGA_Controller>
+    VS in unit <VGA_Controller>
+
+
+Optimizing unit <top_level> ...
+
+Optimizing unit <VGA_Controller> ...
+
+Optimizing unit <UART> ...
+
+Optimizing unit <UART_Controller> ...
+WARNING:Xst:1293 - FF/Latch <count_2> has a constant value of 0 in block <UART_Controller>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <LCD_initializer> ...
+
+Optimizing unit <keyboard_controller> ...
+
+Optimizing unit <connection_watchdog> ...
+WARNING:Xst:1293 - FF/Latch <resetAddr_5> has a constant value of 0 in block <connection_watchdog>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <color_change> ...
+
+Optimizing unit <PWMcontroller> ...
+WARNING:Xst:1293 - FF/Latch <write_data_12> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <write_data_13> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <write_data_14> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <write_data_15> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <Inst_color_change/bluePWMData_0> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_color_change/greenPWMData_0> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_color_change/redPWMData_0> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_color_change/keyboardArray_3_0> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_color_change/keyboardArray_1_0> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:2677 - Node <Inst_color_change/keyboardArray_5_0> of sequential type is unconnected in block <top_level>.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_13> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_14> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_15> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_16> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_17> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_9> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_10> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_11> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_12> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_13> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_14> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_15> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_16> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_17> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_18> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_19> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_20> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_21> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_22> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_23> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_31> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_30> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_29> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_28> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_27> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_26> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_25> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/row_count_24> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_3> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_4> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_5> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_6> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_7> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_8> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_9> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_10> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_11> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <Inst_PSRAM/counter_12> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_11> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_10> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_12> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_13> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_14> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_15> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_16> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_17> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_18> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_19> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_20> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_21> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_30> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_29> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_28> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_27> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_26> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_25> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_24> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_23> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_22> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_21> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_20> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_19> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_18> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_17> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_16> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_15> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_14> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <INST_UART_Controller/gapCounter_23> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <INST_UART_Controller/gapCounter_22> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <INST_UART_Controller/gapCounter_21> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <INST_UART_Controller/count_1> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <INST_UART_Controller/count_0> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <BLUE_PWM/counter_8> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <GREEN_PWM/counter_8> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <RED_PWM/counter_8> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_9> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_8> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_7> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_6> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_5> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_4> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_3> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_31> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_30> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_29> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_28> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_27> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_26> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_25> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_24> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_23> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_22> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_21> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_20> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_19> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_18> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_17> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_16> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_15> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxEnableCnt_14> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/RxEnableCnt_31> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_1> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_2> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_3> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_4> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_5> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_6> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_7> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_8> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_9> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_10> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_11> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_12> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_13> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_14> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_15> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_16> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_17> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_18> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_19> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_20> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_21> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_22> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_23> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_24> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_25> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_26> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_27> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_28> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_29> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_30> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/count_31> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_22> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_23> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_24> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_25> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_26> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_27> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_28> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_29> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_30> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_UART/TxBitCnt_31> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/output/count_10> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/output/count_11> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/output/count_12> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/output/count_13> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/output/count_14> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/output/count_15> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/output/count_16> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_17> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_18> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_19> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_20> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_21> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_22> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_23> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_24> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_25> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_26> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_27> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_28> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_29> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_30> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <Inst_PMOD_Controller/Delay_Count_31> has a constant value of 0 in block <top_level>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/counter_0> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/counter_0> <RED_PWM/counter_0> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/counter_1> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/counter_1> <RED_PWM/counter_1> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/counter_2> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/counter_2> <RED_PWM/counter_2> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/counter_3> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/counter_3> <RED_PWM/counter_3> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/counter_4> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/counter_4> <RED_PWM/counter_4> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/countEN> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/countEN> <RED_PWM/countEN> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/counter_5> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/counter_5> <RED_PWM/counter_5> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/counter_6> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/counter_6> <RED_PWM/counter_6> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/counter_7> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/counter_7> <RED_PWM/counter_7> 
+INFO:Xst:2261 - The FF/Latch <Inst_VGA_Controller/pixelClkCnt_1> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <Inst_UART/RxEnableCnt_1> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/MHzCounter_0> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/MHzCounter_0> <RED_PWM/MHzCounter_0> 
+INFO:Xst:2261 - The FF/Latch <Inst_PMOD_Controller/State_FSM_FFd2> in Unit <top_level> is equivalent to the following FF/Latch, which will be removed : <Inst_PMOD_Controller/enable> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/MHzCounter_1> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/MHzCounter_1> <RED_PWM/MHzCounter_1> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/MHzCounter_2> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/MHzCounter_2> <RED_PWM/MHzCounter_2> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/MHzCounter_3> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/MHzCounter_3> <RED_PWM/MHzCounter_3> 
+INFO:Xst:2261 - The FF/Latch <BLUE_PWM/MHzCounter_4> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <GREEN_PWM/MHzCounter_4> <RED_PWM/MHzCounter_4> 
+INFO:Xst:2261 - The FF/Latch <clk_50_cnt_0> in Unit <top_level> is equivalent to the following 3 FFs/Latches, which will be removed : <Inst_PSRAM/psram_clock> <Inst_VGA_Controller/pixelClkCnt_0> <Inst_UART/RxEnableCnt_0> 
+INFO:Xst:2261 - The FF/Latch <Inst_PSRAM/ADDRESS_19> in Unit <top_level> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_PSRAM/UB> <Inst_PSRAM/CRE> 
+INFO:Xst:3203 - The FF/Latch <Inst_PSRAM/current_state_FSM_FFd2> in Unit <top_level> is the opposite to the following FF/Latch, which will be removed : <Inst_PSRAM/clk_out_en> 
+INFO:Xst:3203 - The FF/Latch <vBlankUpper_0> in Unit <top_level> is the opposite to the following 2 FFs/Latches, which will be removed : <vBlankUpper_8> <INST_UART_Controller/state_FSM_FFd1> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block top_level, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 780
+ Flip-Flops                                            : 780
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Clock Information:
+------------------
+-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock Signal                                                                                     | Clock buffer(FF name)                                                                                                                                 | Load  |
+-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Clock                                                                                            | BUFGP                                                                                                                                                 | 571   |
+clk_50_en                                                                                        | BUFG                                                                                                                                                  | 68    |
+Inst_VGA_Controller/pixelClkEn                                                                   | NONE(Inst_PSRAM_Buffer/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SDP.WIDE_PRIM18.ram)| 1     |
+Inst_PSRAM/clock_out                                                                             | NONE(Inst_PSRAM_Buffer/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SDP.WIDE_PRIM18.ram)| 1     |
+Inst_color_change/GND_173_o_GND_173_o_OR_208_o(Inst_color_change/GND_173_o_GND_173_o_OR_208_o3:O)| NONE(*)(Inst_color_change/hex_1)                                                                                                                      | 4     |
+Inst_VGA_Controller/HS_G(Inst_VGA_Controller/HS_G:O)                                             | NONE(*)(Inst_VGA_Controller/HS)                                                                                                                       | 1     |
+Inst_VGA_Controller/VS_G(Inst_VGA_Controller/VS_G:O)                                             | NONE(*)(Inst_VGA_Controller/VS)                                                                                                                       | 1     |
+PS2Clk                                                                                           | BUFGP                                                                                                                                                 | 40    |
+clk_50_cnt_0                                                                                     | BUFG                                                                                                                                                  | 106   |
+-------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+(*) These 3 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 5.655ns (Maximum Frequency: 176.835MHz)
+   Minimum input arrival time before clock: 1.980ns
+   Maximum output required time after clock: 5.946ns
+   Maximum combinational path delay: No path found
+
+=========================================================================

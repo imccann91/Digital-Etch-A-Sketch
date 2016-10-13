@@ -1,0 +1,14 @@
+; LCD connection lost message.
+;
+; This .COE file specifies initialization values for a block 
+; memory of depth=78, and width=32. In this case, values are 
+; specified in hexadecimal format.
+memory_initialization_radix=16;
+memory_initialization_vector=
+00 01 00 01 00 01 15 12 16 15 16 13 16 1F 16 1E
+16 1E 16 15 16 13 17 14 16 15 16 14 12 11 00 00
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+; 00-F
+; 10-1F
+; 20-2F

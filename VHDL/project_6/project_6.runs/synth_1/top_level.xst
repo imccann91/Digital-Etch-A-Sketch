@@ -1,0 +1,10 @@
+set -loop_iteration_limit 1000
+run
+-ifn top_level.prj
+-top top_level
+-p xc7a100tcsg324-1
+-ofn top_level.ngc
+-sd {c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_8 c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_7 c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_4 c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_3 c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_6 c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_5 c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_2 c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_1 c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_0}
+-opt_mode speed
+-opt_level 1
+-netlist_hierarchy rebuilt

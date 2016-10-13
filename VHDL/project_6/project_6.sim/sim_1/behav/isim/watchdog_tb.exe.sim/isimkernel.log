@@ -1,0 +1,28 @@
+Command line:
+   watchdog_tb.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52793
+
+Thu Apr 16 12:06:30 2015
+
+
+ Elaboration Time: 0.1404 sec
+
+ Current Memory Usage: 1296.32 Meg
+
+ Total Signals          : 475
+ Total Nets             : 1888
+ Total Signal Drivers   : 153
+ Total Blocks           : 32
+ Total Primitive Blocks : 16
+ Total Processes        : 88
+ Total Traceable Variables  : 445
+ Total Scalar Nets and Variables : 3775
+
+ Total Simulation Time: 374.512 sec
+
+ Current Memory Usage: 824.435 Meg
+
+Thu Apr 16 16:15:43 2015
+

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="Write_Buffer">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Sat Apr 18 22:43:35 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./summary.log" type="unknown" timestamp="Sat Apr 18 22:42:08 GMT 2015" checksum="0xA72593B2"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./Write_Buffer.xco" type="xco" timestamp="Sat Apr 18 22:42:09 GMT 2015" checksum="0x5DF9EAFF"></File>
+      </FileSet>
+      <FileSet generator="associated_files_generator">
+        <File name="./Write_Buffer/blk_mem_gen_v7_3_readme.txt" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0xF95F2A26"></File>
+        <File name="./Write_Buffer/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0x702C7FA8"></File>
+        <File name="./Write_Buffer/doc/pg058-blk-mem-gen.pdf" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0xC1E42F23"></File>
+      </FileSet>
+      <FileSet generator="ejava_generator">
+        <File name="./Write_Buffer/example_design/Write_Buffer_exdes.ucf" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x8915DFA1"></File>
+        <File name="./Write_Buffer/example_design/Write_Buffer_exdes.vhd" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xA2FFAAE4"></File>
+        <File name="./Write_Buffer/example_design/Write_Buffer_exdes.xdc" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x78E2D49A"></File>
+        <File name="./Write_Buffer/example_design/Write_Buffer_prod.vhd" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x62DC87D2"></File>
+        <File name="./Write_Buffer/implement/implement.bat" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x0374C19F"></File>
+        <File name="./Write_Buffer/implement/implement.sh" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xC8DAC83B"></File>
+        <File name="./Write_Buffer/implement/planAhead_ise.bat" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x3743D0A0"></File>
+        <File name="./Write_Buffer/implement/planAhead_ise.sh" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x5FA23409"></File>
+        <File name="./Write_Buffer/implement/planAhead_ise.tcl" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xA3222D37"></File>
+        <File name="./Write_Buffer/implement/xst.prj" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x2F0C84BA"></File>
+        <File name="./Write_Buffer/implement/xst.scr" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xAEC10FBE"></File>
+        <File name="./Write_Buffer/simulation/Write_Buffer_synth.vhd" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x8E65450B"></File>
+        <File name="./Write_Buffer/simulation/Write_Buffer_tb.vhd" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x55C5604F"></File>
+        <File name="./Write_Buffer/simulation/addr_gen.vhd" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x0500E48D"></File>
+        <File name="./Write_Buffer/simulation/bmg_stim_gen.vhd" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xADEE8833"></File>
+        <File name="./Write_Buffer/simulation/bmg_tb_pkg.vhd" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xE0D93E5B"></File>
+        <File name="./Write_Buffer/simulation/checker.vhd" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x3EC35020"></File>
+        <File name="./Write_Buffer/simulation/data_gen.vhd" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xD9F7C4A0"></File>
+        <File name="./Write_Buffer/simulation/functional/simcmds.tcl" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xAF46FFA0"></File>
+        <File name="./Write_Buffer/simulation/functional/simulate_isim.bat" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x6E2EF048"></File>
+        <File name="./Write_Buffer/simulation/functional/simulate_mti.bat" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./Write_Buffer/simulation/functional/simulate_mti.do" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xC70BDF2E"></File>
+        <File name="./Write_Buffer/simulation/functional/simulate_mti.sh" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./Write_Buffer/simulation/functional/simulate_ncsim.sh" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x446D258E"></File>
+        <File name="./Write_Buffer/simulation/functional/simulate_vcs.sh" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xB39F7F45"></File>
+        <File name="./Write_Buffer/simulation/functional/ucli_commands.key" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x61EB17BF"></File>
+        <File name="./Write_Buffer/simulation/functional/vcs_session.tcl" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x09B4E325"></File>
+        <File name="./Write_Buffer/simulation/functional/wave_mti.do" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x6E403CDA"></File>
+        <File name="./Write_Buffer/simulation/functional/wave_ncsim.sv" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xF9B1898D"></File>
+        <File name="./Write_Buffer/simulation/random.vhd" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x2939160A"></File>
+        <File name="./Write_Buffer/simulation/timing/simcmds.tcl" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xAF46FFA0"></File>
+        <File name="./Write_Buffer/simulation/timing/simulate_isim.bat" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x7209AEDC"></File>
+        <File name="./Write_Buffer/simulation/timing/simulate_mti.bat" type="ignore" timestamp="Sat Apr 18 22:42:11 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./Write_Buffer/simulation/timing/simulate_mti.do" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x73B9A32A"></File>
+        <File name="./Write_Buffer/simulation/timing/simulate_mti.sh" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./Write_Buffer/simulation/timing/simulate_ncsim.sh" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xA57A555D"></File>
+        <File name="./Write_Buffer/simulation/timing/simulate_vcs.sh" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x38F47604"></File>
+        <File name="./Write_Buffer/simulation/timing/ucli_commands.key" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x61EB17BF"></File>
+        <File name="./Write_Buffer/simulation/timing/vcs_session.tcl" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x0E805351"></File>
+        <File name="./Write_Buffer/simulation/timing/wave_mti.do" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0x2ADC8359"></File>
+        <File name="./Write_Buffer/simulation/timing/wave_ncsim.sv" type="ignore" timestamp="Sat Apr 18 22:42:10 GMT 2015" checksum="0xB346C82A"></File>
+      </FileSet>
+      <FileSet generator="ngc_netlist_generator">
+        <File name="./Write_Buffer.ngc" type="ngc" timestamp="Sat Apr 18 22:43:14 GMT 2015" checksum="0xA2042325"></File>
+      </FileSet>
+      <FileSet generator="obfuscate_netlist_generator">
+        <File name="./obfuscate_netlist_generator.xlog" type="ignore" timestamp="Sat Apr 18 22:43:35 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="padded_implementation_netlist_generator">
+        <File name="./padded_implementation_netlist_generator.xlog" type="ignore" timestamp="Sat Apr 18 22:43:35 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="instantiation_template_generator">
+        <File name="./Write_Buffer.vho" type="vho" timestamp="Sat Apr 18 22:43:15 GMT 2015" checksum="0x7288AF40"></File>
+      </FileSet>
+      <FileSet generator="structural_simulation_model_generator">
+        <File name="./Write_Buffer.vhd" type="vhdl" timestamp="Sat Apr 18 22:43:15 GMT 2015" checksum="0xFA94094C"></File>
+      </FileSet>
+      <FileSet generator="all_documents_generator">
+        <File name="./Write_Buffer/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Sat Apr 18 22:43:15 GMT 2015" checksum="0x702C7FA8"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./Write_Buffer.asy" type="asy" timestamp="Sat Apr 18 22:43:24 GMT 2015" checksum="0x52B0AF9E"></File>
+        <File name="./summary.log" type="unknown" timestamp="Sat Apr 18 22:43:24 GMT 2015" checksum="0xA72593B2"></File>
+      </FileSet>
+      <FileSet generator="xmdf_generator">
+        <File name="./Write_Buffer_xmdf.tcl" type="tclXmdf" timestamp="Sat Apr 18 22:43:24 GMT 2015" checksum="0x5BEFE427"></File>
+      </FileSet>
+      <FileSet generator="synthesis_ise_generator">
+        <File name="./Write_Buffer.gise" type="ignore" timestamp="Sat Apr 18 22:43:30 GMT 2015" checksum="0x5B9F3CD6"></File>
+        <File name="./Write_Buffer.xise" type="ignore" timestamp="Sat Apr 18 22:43:30 GMT 2015" checksum="0x625850C1"></File>
+      </FileSet>
+      <FileSet generator="ise_generator">
+        <File name="./Write_Buffer.gise" type="ignore" timestamp="Sat Apr 18 22:43:34 GMT 2015" checksum="0x7C1412C4"></File>
+        <File name="./Write_Buffer.xise" type="ignore" timestamp="Sat Apr 18 22:43:34 GMT 2015" checksum="0x9C4BF313"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./deliver_readme_generator.xlog" type="ignore" timestamp="Sat Apr 18 22:43:35 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./Write_Buffer_flist.txt" type="ignore" timestamp="Sat Apr 18 22:43:35 GMT 2015" checksum="0x3026A93D"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>

@@ -1,0 +1,8 @@
+INTSTYLE=pa
+INFILE=C:\Users\ulab\Desktop\project_6\project_6.runs\impl_1\top_level_routed.ncd
+OUTFILE=C:\Users\ulab\Desktop\project_6\project_6.runs\impl_1\top_level.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=C:\Users\ulab\Desktop\project_6\project_6.runs\impl_1
+LICENSE=ISE
+USER_INFO=175495545_1777507777_210603065_460

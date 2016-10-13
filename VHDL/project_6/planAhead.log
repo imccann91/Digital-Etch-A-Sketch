@@ -1,0 +1,353 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6
+# Build 269223 by xbuild on Wed Jun  5 11:17:50 MDT 2013
+# Start of session at: Mon Apr 27 14:55:38 2015
+# Process ID: 2592
+# Log file: C:/Users/ulab/Desktop/project_6/planAhead.log
+# Journal file: C:/Users/ulab/Desktop/project_6\planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+open_project {C:\Users\ulab\Desktop\project_6\project_6.ppr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user repositories specified
+INFO: [IP_Flow 19-816] Loaded Xilinx IP repository 'C:/Xilinx/14.6/ISE_DS/ISE/'
+open_project: Time (s): elapsed = 00:00:12 . Memory (MB): peak = 410.512 ; gain = 60.129
+open_run synth_1 -name netlist_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+Parsing EDIF File [./project_6.data/cache/top_level_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/top_level_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_1/keyboardROM.ngc' for (cell view 'keyboardROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/keyboardROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/keyboardROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_2/LCDinitROM.ngc' for (cell view 'LCDinitROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/LCDinitROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/LCDinitROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_4/reconnROM.ngc' for (cell view 'reconnROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/reconnROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/reconnROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_3/connLostROM.ngc' for (cell view 'connLostROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/connLostROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/connLostROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_5/PSRAM_Buffer.ngc' for (cell view 'PSRAM_Buffer', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/PSRAM_Buffer_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/PSRAM_Buffer_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_0/CGROM.ngc' for (cell view 'CGROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/CGROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/CGROM_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 710 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf]
+Finished Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 752 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 2 instances
+  FD => FDCE: 175 instances
+  FD => FDCE (inverted pins: C): 32 instances
+  FDE => FDCE: 370 instances
+  FDR => FDRE: 88 instances
+  FDS => FDSE: 5 instances
+  FD_1 => FDCE (inverted pins: C): 8 instances
+  INV => LUT1: 48 instances
+  IOBUF => IOBUF (OBUFT, IBUF): 18 instances
+  LD => LDCE: 2 instances
+  LDE => LDCE: 4 instances
+
+Phase 0 | Netlist Checksum: a1fd2e3d
+open_run: Time (s): elapsed = 00:00:25 . Memory (MB): peak = 698.066 ; gain = 233.961
+reset_run impl_1
+reset_run: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 736.547 ; gain = 3.941
+reset_run synth_1
+reset_run: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 750.602 ; gain = 13.582
+launch_runs synth_1
+[Mon Apr 27 15:03:55 2015] Launched synth_1...
+Run output will be captured here: C:/Users/ulab/Desktop/project_6/project_6.runs/synth_1/runme.log
+launch_runs: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 750.602 ; gain = 0.000
+launch_runs impl_1
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Parsing EDIF File [./project_6.data/cache/top_level_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/top_level_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_1/keyboardROM.ngc' for (cell view 'keyboardROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/keyboardROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/keyboardROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_2/LCDinitROM.ngc' for (cell view 'LCDinitROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/LCDinitROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/LCDinitROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_4/reconnROM.ngc' for (cell view 'reconnROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/reconnROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/reconnROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_3/connLostROM.ngc' for (cell view 'connLostROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/connLostROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/connLostROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_5/PSRAM_Buffer.ngc' for (cell view 'PSRAM_Buffer', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/PSRAM_Buffer_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/PSRAM_Buffer_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_0/CGROM.ngc' for (cell view 'CGROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/CGROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/CGROM_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 710 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sw15' [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf:27]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sw15' [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf:27]
+Finished Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+[Mon Apr 27 15:04:37 2015] Launched impl_1...
+Run output will be captured here: C:/Users/ulab/Desktop/project_6/project_6.runs/impl_1/runme.log
+launch_runs: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 771.672 ; gain = 21.070
+reset_run synth_1
+launch_runs synth_1
+[Mon Apr 27 15:09:38 2015] Launched synth_1...
+Run output will be captured here: C:/Users/ulab/Desktop/project_6/project_6.runs/synth_1/runme.log
+launch_runs impl_1
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61380 kilobytes
+
+Parsing EDIF File [./project_6.data/cache/top_level_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/top_level_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_1/keyboardROM.ngc' for (cell view 'keyboardROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/keyboardROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/keyboardROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_2/LCDinitROM.ngc' for (cell view 'LCDinitROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/LCDinitROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/LCDinitROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_4/reconnROM.ngc' for (cell view 'reconnROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/reconnROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/reconnROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_3/connLostROM.ngc' for (cell view 'connLostROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/connLostROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/connLostROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_5/PSRAM_Buffer.ngc' for (cell view 'PSRAM_Buffer', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/PSRAM_Buffer_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/PSRAM_Buffer_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_0/CGROM.ngc' for (cell view 'CGROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/CGROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/CGROM_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 710 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf]
+Finished Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf]
+[Mon Apr 27 15:10:23 2015] Launched impl_1...
+Run output will be captured here: C:/Users/ulab/Desktop/project_6/project_6.runs/impl_1/runme.log
+launch_runs: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 771.672 ; gain = 0.000
+launch_runs impl_1 -to_step Bitgen
+[Mon Apr 27 15:14:07 2015] Launched impl_1...
+Run output will be captured here: C:/Users/ulab/Desktop/project_6/project_6.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1 -to_step Bitgen
+Parsing EDIF File [./project_6.data/cache/top_level_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/top_level_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_1/keyboardROM.ngc' for (cell view 'keyboardROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/keyboardROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/keyboardROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_2/LCDinitROM.ngc' for (cell view 'LCDinitROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/LCDinitROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/LCDinitROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_4/reconnROM.ngc' for (cell view 'reconnROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/reconnROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/reconnROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_3/connLostROM.ngc' for (cell view 'connLostROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/connLostROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/connLostROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_5/PSRAM_Buffer.ngc' for (cell view 'PSRAM_Buffer', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/PSRAM_Buffer_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/PSRAM_Buffer_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_0/CGROM.ngc' for (cell view 'CGROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/CGROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/CGROM_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 710 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf]
+Finished Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf]
+[Mon Apr 27 15:18:14 2015] Launched impl_1...
+Run output will be captured here: C:/Users/ulab/Desktop/project_6/project_6.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step Bitgen
+[Mon Apr 27 15:22:35 2015] Launched impl_1...
+Run output will be captured here: C:/Users/ulab/Desktop/project_6/project_6.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+[Mon Apr 27 15:23:03 2015] Launched synth_1...
+Run output will be captured here: C:/Users/ulab/Desktop/project_6/project_6.runs/synth_1/runme.log
+launch_runs impl_1
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Parsing EDIF File [./project_6.data/cache/top_level_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/top_level_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_1/keyboardROM.ngc' for (cell view 'keyboardROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/keyboardROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/keyboardROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_2/LCDinitROM.ngc' for (cell view 'LCDinitROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/LCDinitROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/LCDinitROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_4/reconnROM.ngc' for (cell view 'reconnROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/reconnROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/reconnROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_3/connLostROM.ngc' for (cell view 'connLostROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/connLostROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/connLostROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_5/PSRAM_Buffer.ngc' for (cell view 'PSRAM_Buffer', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/PSRAM_Buffer_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/PSRAM_Buffer_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_0/CGROM.ngc' for (cell view 'CGROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/CGROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/CGROM_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 710 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf]
+Finished Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf]
+[Mon Apr 27 15:23:44 2015] Launched impl_1...
+Run output will be captured here: C:/Users/ulab/Desktop/project_6/project_6.runs/impl_1/runme.log
+launch_runs: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 782.844 ; gain = 8.234
+launch_runs impl_1 -to_step Bitgen
+[Mon Apr 27 15:27:26 2015] Launched impl_1...
+Run output will be captured here: C:/Users/ulab/Desktop/project_6/project_6.runs/impl_1/runme.log
+refresh_design
+Parsing EDIF File [./project_6.data/cache/top_level_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/top_level_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_1/keyboardROM.ngc' for (cell view 'keyboardROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/keyboardROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/keyboardROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_2/LCDinitROM.ngc' for (cell view 'LCDinitROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/LCDinitROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/LCDinitROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_4/reconnROM.ngc' for (cell view 'reconnROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/reconnROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/reconnROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_3/connLostROM.ngc' for (cell view 'connLostROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/connLostROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/connLostROM_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_5/PSRAM_Buffer.ngc' for (cell view 'PSRAM_Buffer', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/PSRAM_Buffer_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/PSRAM_Buffer_ngc_zx.edif]
+Reading core file 'c:/Users/ulab/Desktop/project_6/project_6.srcs/sources_1/ip/blk_mem_gen_v7_3_0/CGROM.ngc' for (cell view 'CGROM', library 'top_level_lib', file 'top_level.ngc')
+Parsing EDIF File [./project_6.data/cache/CGROM_ngc_zx.edif]
+Finished Parsing EDIF File [./project_6.data/cache/CGROM_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 710 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf]
+Finished Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.srcs/constrs_1/imports/import VHDL/Nexys4_Master.ucf]
+refresh_design: Time (s): elapsed = 00:00:13 . Memory (MB): peak = 782.844 ; gain = 0.000
+close_design
+open_run impl_1
+Parsing EDIF File [./project_6.runs/impl_1/top_level.edf]
+Finished Parsing EDIF File [./project_6.runs/impl_1/top_level.edf]
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.runs/impl_1/.constrs/Nexys4_Master.ucf]
+Finished Parsing UCF File [C:/Users/ulab/Desktop/project_6/project_6.runs/impl_1/.constrs/Nexys4_Master.ucf]
+INFO: [Designutils 20-669] Parsing Placement File : C:/Users/ulab/Desktop/project_6/project_6.runs/impl_1/top_level_routed.xdl
+INFO: [Designutils 20-658] Finished Parsing Placement File : C:/Users/ulab/Desktop/project_6/project_6.runs/impl_1/top_level_routed.xdl
+INFO: [Designutils 20-671] Placed 2492 instances
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 752 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 2 instances
+  FD => FDCE: 175 instances
+  FD => FDCE (inverted pins: C): 32 instances
+  FDE => FDCE: 370 instances
+  FDR => FDRE: 88 instances
+  FDS => FDSE: 5 instances
+  FD_1 => FDCE (inverted pins: C): 8 instances
+  INV => LUT1: 48 instances
+  IOBUF => IOBUF (OBUFT, IBUF): 18 instances
+  LD => LDCE: 2 instances
+  LDE => LDCE: 4 instances
+
+Phase 0 | Netlist Checksum: c58aaf1d
+open_run: Time (s): elapsed = 00:00:13 . Memory (MB): peak = 782.844 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Mon Apr 27 15:34:39 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

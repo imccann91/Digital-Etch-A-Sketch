@@ -1,0 +1,157 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6
+# Build 269223 by xbuild on Wed Jun  5 11:17:50 MDT 2013
+# Start of session at: Thu Apr 23 08:55:42 2015
+# Process ID: 6852
+# Log file: C:/Users/ulab/Desktop/project_6/planAhead.log
+# Journal file: C:/Users/ulab/Desktop/project_6\planAhead.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\ulab\Desktop\project_6\project_6.ppr}
+launch_impact 
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+launch_impact 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+launch_impact 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+launch_impact 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+launch_impact 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+launch_impact 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+launch_impact 
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step Bitgen
+wait_on_run impl_1
+launch_impact 

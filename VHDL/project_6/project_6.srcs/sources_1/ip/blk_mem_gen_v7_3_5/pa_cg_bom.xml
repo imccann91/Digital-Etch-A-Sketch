@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="PSRAM_Buffer">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Sat Apr 18 19:11:14 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./summary.log" type="unknown" timestamp="Sat Apr 18 19:09:52 GMT 2015" checksum="0xB23EF8D1"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./PSRAM_Buffer.xco" type="xco" timestamp="Sat Apr 18 19:09:52 GMT 2015" checksum="0x50C4A2D2"></File>
+      </FileSet>
+      <FileSet generator="associated_files_generator">
+        <File name="./PSRAM_Buffer/blk_mem_gen_v7_3_readme.txt" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0xF95F2A26"></File>
+        <File name="./PSRAM_Buffer/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0x702C7FA8"></File>
+        <File name="./PSRAM_Buffer/doc/pg058-blk-mem-gen.pdf" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0xC1E42F23"></File>
+      </FileSet>
+      <FileSet generator="ejava_generator">
+        <File name="./PSRAM_Buffer/example_design/PSRAM_Buffer_exdes.ucf" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x8915DFA1"></File>
+        <File name="./PSRAM_Buffer/example_design/PSRAM_Buffer_exdes.vhd" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x95129846"></File>
+        <File name="./PSRAM_Buffer/example_design/PSRAM_Buffer_exdes.xdc" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x78E2D49A"></File>
+        <File name="./PSRAM_Buffer/example_design/PSRAM_Buffer_prod.vhd" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x24CE38EA"></File>
+        <File name="./PSRAM_Buffer/implement/implement.bat" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x9FA1191F"></File>
+        <File name="./PSRAM_Buffer/implement/implement.sh" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x0F9E15CA"></File>
+        <File name="./PSRAM_Buffer/implement/planAhead_ise.bat" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xC9C51C19"></File>
+        <File name="./PSRAM_Buffer/implement/planAhead_ise.sh" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xA124F8B0"></File>
+        <File name="./PSRAM_Buffer/implement/planAhead_ise.tcl" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x82A2F487"></File>
+        <File name="./PSRAM_Buffer/implement/xst.prj" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xF0F930EB"></File>
+        <File name="./PSRAM_Buffer/implement/xst.scr" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x75FC9561"></File>
+        <File name="./PSRAM_Buffer/simulation/PSRAM_Buffer_synth.vhd" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xA867E50B"></File>
+        <File name="./PSRAM_Buffer/simulation/PSRAM_Buffer_tb.vhd" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x2FFA0B81"></File>
+        <File name="./PSRAM_Buffer/simulation/addr_gen.vhd" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x0500E48D"></File>
+        <File name="./PSRAM_Buffer/simulation/bmg_stim_gen.vhd" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x63B09DC8"></File>
+        <File name="./PSRAM_Buffer/simulation/bmg_tb_pkg.vhd" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xE0D93E5B"></File>
+        <File name="./PSRAM_Buffer/simulation/checker.vhd" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x3EC35020"></File>
+        <File name="./PSRAM_Buffer/simulation/data_gen.vhd" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xD9F7C4A0"></File>
+        <File name="./PSRAM_Buffer/simulation/functional/simcmds.tcl" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xCDC2F1C9"></File>
+        <File name="./PSRAM_Buffer/simulation/functional/simulate_isim.bat" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xC7188808"></File>
+        <File name="./PSRAM_Buffer/simulation/functional/simulate_mti.bat" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./PSRAM_Buffer/simulation/functional/simulate_mti.do" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xB397E22E"></File>
+        <File name="./PSRAM_Buffer/simulation/functional/simulate_mti.sh" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./PSRAM_Buffer/simulation/functional/simulate_ncsim.sh" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x49E650DA"></File>
+        <File name="./PSRAM_Buffer/simulation/functional/simulate_vcs.sh" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xE55B0F40"></File>
+        <File name="./PSRAM_Buffer/simulation/functional/ucli_commands.key" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x41EB3EC8"></File>
+        <File name="./PSRAM_Buffer/simulation/functional/vcs_session.tcl" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xE63F86B3"></File>
+        <File name="./PSRAM_Buffer/simulation/functional/wave_mti.do" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x760BA10C"></File>
+        <File name="./PSRAM_Buffer/simulation/functional/wave_ncsim.sv" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x438244D0"></File>
+        <File name="./PSRAM_Buffer/simulation/random.vhd" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x2939160A"></File>
+        <File name="./PSRAM_Buffer/simulation/timing/simcmds.tcl" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xCDC2F1C9"></File>
+        <File name="./PSRAM_Buffer/simulation/timing/simulate_isim.bat" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x2C04FE99"></File>
+        <File name="./PSRAM_Buffer/simulation/timing/simulate_mti.bat" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./PSRAM_Buffer/simulation/timing/simulate_mti.do" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xCB88E684"></File>
+        <File name="./PSRAM_Buffer/simulation/timing/simulate_mti.sh" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./PSRAM_Buffer/simulation/timing/simulate_ncsim.sh" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xFBB3E3DC"></File>
+        <File name="./PSRAM_Buffer/simulation/timing/simulate_vcs.sh" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xD3DA0283"></File>
+        <File name="./PSRAM_Buffer/simulation/timing/ucli_commands.key" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x41EB3EC8"></File>
+        <File name="./PSRAM_Buffer/simulation/timing/vcs_session.tcl" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xE10B36C7"></File>
+        <File name="./PSRAM_Buffer/simulation/timing/wave_mti.do" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0xD606228E"></File>
+        <File name="./PSRAM_Buffer/simulation/timing/wave_ncsim.sv" type="ignore" timestamp="Sat Apr 18 19:09:53 GMT 2015" checksum="0x50BD90DE"></File>
+      </FileSet>
+      <FileSet generator="ngc_netlist_generator">
+        <File name="./PSRAM_Buffer.ngc" type="ngc" timestamp="Sat Apr 18 19:10:56 GMT 2015" checksum="0x3E2703AF"></File>
+      </FileSet>
+      <FileSet generator="obfuscate_netlist_generator">
+        <File name="./obfuscate_netlist_generator.xlog" type="ignore" timestamp="Sat Apr 18 19:11:14 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="padded_implementation_netlist_generator">
+        <File name="./padded_implementation_netlist_generator.xlog" type="ignore" timestamp="Sat Apr 18 19:11:14 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="instantiation_template_generator">
+        <File name="./PSRAM_Buffer.vho" type="vho" timestamp="Sat Apr 18 19:10:57 GMT 2015" checksum="0xBADE921B"></File>
+      </FileSet>
+      <FileSet generator="structural_simulation_model_generator">
+        <File name="./PSRAM_Buffer.vhd" type="vhdl" timestamp="Sat Apr 18 19:10:57 GMT 2015" checksum="0xA6488647"></File>
+      </FileSet>
+      <FileSet generator="all_documents_generator">
+        <File name="./PSRAM_Buffer/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Sat Apr 18 19:10:58 GMT 2015" checksum="0x702C7FA8"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./PSRAM_Buffer.asy" type="asy" timestamp="Sat Apr 18 19:11:05 GMT 2015" checksum="0x780AC1D2"></File>
+        <File name="./summary.log" type="unknown" timestamp="Sat Apr 18 19:11:05 GMT 2015" checksum="0xB23EF8D1"></File>
+      </FileSet>
+      <FileSet generator="xmdf_generator">
+        <File name="./PSRAM_Buffer_xmdf.tcl" type="tclXmdf" timestamp="Sat Apr 18 19:11:05 GMT 2015" checksum="0xE5BECB23"></File>
+      </FileSet>
+      <FileSet generator="synthesis_ise_generator">
+        <File name="./PSRAM_Buffer.gise" type="ignore" timestamp="Sat Apr 18 19:11:09 GMT 2015" checksum="0x5452EB69"></File>
+        <File name="./PSRAM_Buffer.xise" type="ignore" timestamp="Sat Apr 18 19:11:09 GMT 2015" checksum="0x2D02AFC0"></File>
+      </FileSet>
+      <FileSet generator="ise_generator">
+        <File name="./PSRAM_Buffer.gise" type="ignore" timestamp="Sat Apr 18 19:11:13 GMT 2015" checksum="0x10DC76E5"></File>
+        <File name="./PSRAM_Buffer.xise" type="ignore" timestamp="Sat Apr 18 19:11:13 GMT 2015" checksum="0xA2599685"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./deliver_readme_generator.xlog" type="ignore" timestamp="Sat Apr 18 19:11:15 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./PSRAM_Buffer_flist.txt" type="ignore" timestamp="Sat Apr 18 19:11:14 GMT 2015" checksum="0xAB3B7BF1"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>

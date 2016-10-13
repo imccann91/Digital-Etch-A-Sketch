@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+  <IPInstance name="reconnROM">
+    <FileSets>
+      <FileSet generator="apply_current_project_options_generator">
+        <File name="./apply_current_project_options_generator.xlog" type="ignore" timestamp="Sat Apr 18 17:14:03 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="model_parameter_resolution_generator">
+        <File name="./reconnROM.mif" type="mif" timestamp="Sat Apr 18 17:12:26 GMT 2015" checksum="0x1D56D3CD"></File>
+        <File name="./summary.log" type="unknown" timestamp="Sat Apr 18 17:12:26 GMT 2015" checksum="0x6ECD9B8E"></File>
+      </FileSet>
+      <FileSet generator="ip_xco_generator">
+        <File name="./reconnROM.xco" type="xco" timestamp="Sat Apr 18 17:12:26 GMT 2015" checksum="0x8D84AC4F"></File>
+      </FileSet>
+      <FileSet generator="associated_files_generator">
+        <File name="./reconnROM/blk_mem_gen_v7_3_readme.txt" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0xF95F2A26"></File>
+        <File name="./reconnROM/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0x702C7FA8"></File>
+        <File name="./reconnROM/doc/pg058-blk-mem-gen.pdf" type="ignore" timestamp="Sat Jun 08 22:39:39 GMT 2013" checksum="0xC1E42F23"></File>
+      </FileSet>
+      <FileSet generator="ejava_generator">
+        <File name="./reconnROM/example_design/reconnROM_exdes.ucf" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0xC44C6B6D"></File>
+        <File name="./reconnROM/example_design/reconnROM_exdes.vhd" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0xE45E76D4"></File>
+        <File name="./reconnROM/example_design/reconnROM_exdes.xdc" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0x7684D6D4"></File>
+        <File name="./reconnROM/example_design/reconnROM_prod.vhd" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0xB343AED3"></File>
+        <File name="./reconnROM/implement/implement.bat" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0x8F59902C"></File>
+        <File name="./reconnROM/implement/implement.sh" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0xE6D8BB51"></File>
+        <File name="./reconnROM/implement/planAhead_ise.bat" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0xCA9D6890"></File>
+        <File name="./reconnROM/implement/planAhead_ise.sh" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0xF68CE663"></File>
+        <File name="./reconnROM/implement/planAhead_ise.tcl" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0xD958CA03"></File>
+        <File name="./reconnROM/implement/xst.prj" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0x41A0ACF1"></File>
+        <File name="./reconnROM/implement/xst.scr" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0x0B881B51"></File>
+        <File name="./reconnROM/simulation/addr_gen.vhd" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0x0500E48D"></File>
+        <File name="./reconnROM/simulation/bmg_stim_gen.vhd" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xFE942F7B"></File>
+        <File name="./reconnROM/simulation/bmg_tb_pkg.vhd" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0xE0D93E5B"></File>
+        <File name="./reconnROM/simulation/functional/simcmds.tcl" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xE06FCE50"></File>
+        <File name="./reconnROM/simulation/functional/simulate_isim.bat" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xA586C4C6"></File>
+        <File name="./reconnROM/simulation/functional/simulate_mti.bat" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./reconnROM/simulation/functional/simulate_mti.do" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0x55CEF0B9"></File>
+        <File name="./reconnROM/simulation/functional/simulate_mti.sh" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./reconnROM/simulation/functional/simulate_ncsim.sh" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xF0672BF2"></File>
+        <File name="./reconnROM/simulation/functional/simulate_vcs.sh" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0x916ED21A"></File>
+        <File name="./reconnROM/simulation/functional/ucli_commands.key" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xE8E0FDEE"></File>
+        <File name="./reconnROM/simulation/functional/vcs_session.tcl" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xBF4187A0"></File>
+        <File name="./reconnROM/simulation/functional/wave_mti.do" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xF585211A"></File>
+        <File name="./reconnROM/simulation/functional/wave_ncsim.sv" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0x1A4436E4"></File>
+        <File name="./reconnROM/simulation/random.vhd" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0x2939160A"></File>
+        <File name="./reconnROM/simulation/reconnROM_synth.vhd" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0x71A6D121"></File>
+        <File name="./reconnROM/simulation/reconnROM_tb.vhd" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xF71C3EA8"></File>
+        <File name="./reconnROM/simulation/timing/simcmds.tcl" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xE06FCE50"></File>
+        <File name="./reconnROM/simulation/timing/simulate_isim.bat" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0x03F34091"></File>
+        <File name="./reconnROM/simulation/timing/simulate_mti.bat" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./reconnROM/simulation/timing/simulate_mti.do" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0x231F7F96"></File>
+        <File name="./reconnROM/simulation/timing/simulate_mti.sh" type="ignore" timestamp="Sat Apr 18 17:12:28 GMT 2015" checksum="0x86EA5D67"></File>
+        <File name="./reconnROM/simulation/timing/simulate_ncsim.sh" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xF33DBB74"></File>
+        <File name="./reconnROM/simulation/timing/simulate_vcs.sh" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0x8699EF49"></File>
+        <File name="./reconnROM/simulation/timing/ucli_commands.key" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xE8E0FDEE"></File>
+        <File name="./reconnROM/simulation/timing/vcs_session.tcl" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xCF8EB2CB"></File>
+        <File name="./reconnROM/simulation/timing/wave_mti.do" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0xECFDEC2E"></File>
+        <File name="./reconnROM/simulation/timing/wave_ncsim.sv" type="ignore" timestamp="Sat Apr 18 17:12:27 GMT 2015" checksum="0x6CCF0402"></File>
+      </FileSet>
+      <FileSet generator="ngc_netlist_generator">
+        <File name="./reconnROM.ngc" type="ngc" timestamp="Sat Apr 18 17:13:41 GMT 2015" checksum="0x4924084F"></File>
+      </FileSet>
+      <FileSet generator="obfuscate_netlist_generator">
+        <File name="./obfuscate_netlist_generator.xlog" type="ignore" timestamp="Sat Apr 18 17:14:03 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="padded_implementation_netlist_generator">
+        <File name="./padded_implementation_netlist_generator.xlog" type="ignore" timestamp="Sat Apr 18 17:14:03 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="instantiation_template_generator">
+        <File name="./reconnROM.vho" type="vho" timestamp="Sat Apr 18 17:13:42 GMT 2015" checksum="0x71AAC741"></File>
+      </FileSet>
+      <FileSet generator="structural_simulation_model_generator">
+        <File name="./reconnROM.vhd" type="vhdl" timestamp="Sat Apr 18 17:13:42 GMT 2015" checksum="0xD6158D23"></File>
+      </FileSet>
+      <FileSet generator="all_documents_generator">
+        <File name="./reconnROM/doc/blk_mem_gen_v7_3_vinfo.html" type="ignore" timestamp="Sat Apr 18 17:13:43 GMT 2015" checksum="0x702C7FA8"></File>
+      </FileSet>
+      <FileSet generator="asy_generator">
+        <File name="./reconnROM.asy" type="asy" timestamp="Sat Apr 18 17:13:52 GMT 2015" checksum="0x8E63655B"></File>
+        <File name="./reconnROM.mif" type="mif" timestamp="Sat Apr 18 17:13:52 GMT 2015" checksum="0x1D56D3CD"></File>
+        <File name="./summary.log" type="unknown" timestamp="Sat Apr 18 17:13:52 GMT 2015" checksum="0x6ECD9B8E"></File>
+      </FileSet>
+      <FileSet generator="xmdf_generator">
+        <File name="./reconnROM_xmdf.tcl" type="tclXmdf" timestamp="Sat Apr 18 17:13:52 GMT 2015" checksum="0x6103FE20"></File>
+      </FileSet>
+      <FileSet generator="synthesis_ise_generator">
+        <File name="./reconnROM.gise" type="ignore" timestamp="Sat Apr 18 17:13:57 GMT 2015" checksum="0xEBEF23DE"></File>
+        <File name="./reconnROM.xise" type="ignore" timestamp="Sat Apr 18 17:13:57 GMT 2015" checksum="0x68AE2D25"></File>
+      </FileSet>
+      <FileSet generator="ise_generator">
+        <File name="./reconnROM.gise" type="ignore" timestamp="Sat Apr 18 17:14:02 GMT 2015" checksum="0x468644B4"></File>
+        <File name="./reconnROM.xise" type="ignore" timestamp="Sat Apr 18 17:14:02 GMT 2015" checksum="0xB3FF28DF"></File>
+      </FileSet>
+      <FileSet generator="deliver_readme_generator">
+        <File name="./deliver_readme_generator.xlog" type="ignore" timestamp="Sat Apr 18 17:14:03 GMT 2015" checksum="0xFFFFFFFF"></File>
+      </FileSet>
+      <FileSet generator="flist_generator">
+        <File name="./reconnROM_flist.txt" type="ignore" timestamp="Sat Apr 18 17:14:03 GMT 2015" checksum="0xD47089A0"></File>
+      </FileSet>
+    </FileSets>
+  </IPInstance>
+</BillOfMaterials>

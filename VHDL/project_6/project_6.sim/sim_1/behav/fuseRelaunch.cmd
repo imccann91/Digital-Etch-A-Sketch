@@ -1,0 +1,1 @@
+-intstyle "pa" -incremental -L "work" -L "secureip" -o "watchdog_tb.exe" --prj "C:/Users/ulab/Desktop/project_6/project_6.sim/sim_1/behav/watchdog_tb.prj" -top "work.watchdog_tb" 

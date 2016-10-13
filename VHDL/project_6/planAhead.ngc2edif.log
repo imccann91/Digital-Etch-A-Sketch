@@ -1,0 +1,2074 @@
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design reconnROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to reconnROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file reconnROM.edif ...
+ngc2edif: Total memory usage is 59524 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design connLostROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to connLostROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file connLostROM.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design CGROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to CGROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file CGROM.edif ...
+ngc2edif: Total memory usage is 60740 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design keyboardROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to keyboardROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file keyboardROM.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design LCDinitROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to LCDinitROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file LCDinitROM.edif ...
+ngc2edif: Total memory usage is 59972 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60804 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60292 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Mcount_cnt_time_lut<9 : 0> on block
+   connection_watchdog is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 59844 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60804 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60804 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design reconnROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to reconnROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file reconnROM.edif ...
+ngc2edif: Total memory usage is 59396 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design connLostROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to connLostROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file connLostROM.edif ...
+ngc2edif: Total memory usage is 59972 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design reconnROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to reconnROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file reconnROM.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design connLostROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to connLostROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file connLostROM.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 2> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design reconnROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to reconnROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file reconnROM.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design connLostROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to connLostROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file connLostROM.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design reconnROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to reconnROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file reconnROM.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design connLostROM.ngc ...
+WARNING:NetListWriters:298 - No output is written to connLostROM.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file connLostROM.edif ...
+ngc2edif: Total memory usage is 59844 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60548 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60932 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design PSRAM_Buffer.ngc ...
+WARNING:NetListWriters:298 - No output is written to PSRAM_Buffer.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file PSRAM_Buffer.edif ...
+ngc2edif: Total memory usage is 59652 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus vBlankUpper<8 : 4> on block VGA_Controller
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60548 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60484 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design connection_watchdog.ngc ...
+WARNING:NetListWriters:298 - No output is written to connection_watchdog.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file connection_watchdog.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design bigCanvasMessage.ngc ...
+WARNING:NetListWriters:298 - No output is written to bigCanvasMessage.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bigCanvasMessage.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design smallCanvasMessage.ngc ...
+WARNING:NetListWriters:298 - No output is written to smallCanvasMessage.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file smallCanvasMessage.edif ...
+ngc2edif: Total memory usage is 60036 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus data_in[11 : 3] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 2> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60996 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 10] on block PSRAM is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ADDRESS[18 : 1] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus address_in[18 : 4] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus _n0487<18 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<17 : 10> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus addr_counter<18 : 1> on block top_level
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0178[9:0]<8 : 1> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Madd_n0178[9:0]_cy<8 : 5> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus _n0487<17 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus vBlankUpper<8 : 4> on block VGA_Controller
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61316 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus _n0487<17 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus vBlankUpper<8 : 4> on block VGA_Controller
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus _n0487<17 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus hBlankUpper<9 : 3> on block VGA_Controller
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus vBlankUpper<8 : 5> on block VGA_Controller
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 60868 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus data_in[11 : 7] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus _n0487<19 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<9 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ADDRESS[18 : 1] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus address_in[18 : 4] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus _n0487<18 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<9 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus addr_counter<18 : 1> on block top_level
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus n0184[9:0]<8 : 1> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus data_in[11 : 7] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus _n0487<19 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<9 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus data_in[11 : 7] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus _n0487<19 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<9 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus data_in[11 : 7] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus _n0487<19 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus hBlankUpper<9 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61892 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus data_in[9 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus color<9 : 0> on block top_level is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<9 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61700 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Mmux_yregister_int[22]_GND_4_o_mux_65_OUT_rs_B<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61956 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61316 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62020 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus Result<30 : 0> on block UART_Controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62020 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61764 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61892 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus data_in[11 : 3] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62020 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus data_in[11 : 3] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61828 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus data_in[11 : 3] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61700 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus data_in[11 : 3] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus write_data<4 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61060 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Result<31 : 1> on block top_level is not
+   reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61764 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61188 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61380 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61828 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61764 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62148 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61892 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus cursorDrawMinusOne<31 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Madd_n0280[9:0]_cy<7 : 3> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61444 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61316 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61636 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61956 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61764 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Result[23 : 0] on block UART_Controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus gapCounter[23 : 1] on block
+   UART_Controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61572 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Result[23 : 0] on block UART_Controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus gapCounter[23 : 1] on block
+   UART_Controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61700 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Result[23 : 0] on block UART_Controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus gapCounter[23 : 1] on block
+   UART_Controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<8 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62148 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61956 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61508 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61700 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 61380 kilobytes
+
+Release 14.6 - ngc2edif P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design top_level.ngc ...
+WARNING:NetListWriters:298 - No output is written to top_level.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus Write_Length[17 : 0] on block PSRAM is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus counter<8 : 0> on block PSRAM is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus registerPointer[2]_Decoder_17_OUT<5 : 0>
+   on block color_change is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus vBlankUpper<7 : 0> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus coorData<33 : 17> on block top_level is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus PSRAM_write_length<10 : 0> on block
+   top_level is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file top_level.edif ...
+ngc2edif: Total memory usage is 62084 kilobytes
+
